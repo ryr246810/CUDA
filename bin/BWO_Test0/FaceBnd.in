@@ -1,0 +1,18 @@
+<FieldSrc theBnd3>
+  kind = MurVoltagePort 
+  mask = 3
+  
+   <TFunc theTrapezeFunc>
+    function = TrapezePulseFunc
+    amplitude = 8.0e5
+    delay = 0.0 
+    rise = 5e-9 
+    pulse = 5.0e-2 
+    fall = 1.0e-9 
+  </TFunc>
+   
+
+</FieldsSrc>
+
+
+

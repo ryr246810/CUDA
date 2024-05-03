@@ -1,0 +1,52 @@
+<FieldsDgn Dgn0>
+  kind = ElecDgn_ZR
+  dir = 0
+  Phi=0
+  name = Ez
+  location = [0.245 0.018]
+  #location = [0.091 0.008]
+</FieldDgn>
+
+<FieldsDgn Dgn1>
+  kind = ElecDgn_ZR
+  Phi=0
+  dir=1
+  name = Er
+  location = [0.245 0.018]
+  #location = [0.091 0.008]
+</FieldDgn>
+
+<FieldsDgn Dgn2>
+  kind = ElecDgn_Phi
+  Phi=0
+  name = Ephi
+  location = [0.245 0.018]
+  #location = [0.091 0.008]
+</FieldDgn>
+
+<FieldsDgn Dgn3>
+  kind = PoyntingDgn 
+  dir= 0
+  Phi=0
+  name =Pout 
+  lowerBounds= [0.245 0.0]
+  upperBounds= [0.245 0.022]
+</FieldDgn>
+
+<FieldsDgn Dgn4>
+  kind = VoltageDgn 
+  lineDir=1
+  Phi=0
+  name =Vin 
+  org= [0.245 0.0]
+  end= [0.245 0.022]
+</FieldDgn>
+
+<FieldsDgn Dgn5>
+  kind = CurrentDgn 
+  dir = 0
+  Phi=0
+  name = current
+  lowerBounds = [0.06 0.0]
+  upperBounds = [0.06 0.022]
+</FieldDgn>

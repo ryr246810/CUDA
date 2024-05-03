@@ -1,0 +1,9 @@
+#ifndef _TDF_Label_HeaderFile
+#include <TDF_Label.hxx>
+#endif
+#ifndef _BRepBuilderAPI_MakeFace_HeaderFile
+#include <BRepBuilderAPI_MakeFace.hxx>
+#endif
+#ifndef _BRepNaming_Face_HeaderFile
+#include <BRepNaming_Face.hxx>
+#endif

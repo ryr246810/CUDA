@@ -1,0 +1,7 @@
+#ifndef _TDF_Label_HeaderFile
+#include <TDF_Label.hxx>
+#endif
+#ifndef _BRepNaming_RecPeriodEdge_HeaderFile
+#include <BRepNaming_RecPeriodEdge.hxx>
+#endif
+

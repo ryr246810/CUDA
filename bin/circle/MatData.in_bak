@@ -1,0 +1,27 @@
+<EMMaterialData theMatData1>
+  <OneMaterialData material1>
+    materialDataIndex=0
+    eps=3.0
+    mu=1.0
+    sigma=0.0
+  </OneMaterialData>
+
+</EMMaterialData>
+
+
+<ShapeMaterialMap theShapeMatMap>
+  <ShapeMaterialDefine theShapeMatDefine1>
+    mask=15
+    materialDataIndex=0
+  </ShapeMaterialDefine>
+
+</ShapeMaterialMap>
+
+<MurPortDatas theMurPortDatas>
+  <OneMurPortData theOneMurPortData>
+    mask=10
+    vp=1.0e5
+  </OneMurPortData>
+</MurPortDatas>
+
+

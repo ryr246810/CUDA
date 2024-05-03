@@ -1,0 +1,6 @@
+#ifndef _TDF_Label_HeaderFile
+#include <TDF_Label.hxx>
+#endif
+#ifndef _BRepNaming_Selection_HeaderFile
+#include <BRepNaming_Selection.hxx>
+#endif

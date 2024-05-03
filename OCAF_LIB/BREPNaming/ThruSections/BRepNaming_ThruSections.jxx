@@ -1,0 +1,12 @@
+#ifndef _TDF_Label_HeaderFile
+#include <TDF_Label.hxx>
+#endif
+#ifndef _BRepOffsetAPI_ThruSections_HeaderFile
+#include <BRepOffsetAPI_ThruSections.hxx>
+#endif
+#ifndef _TopTools_ListOfShape_HeaderFile
+#include <TopTools_ListOfShape.hxx>
+#endif
+#ifndef _BRepNaming_ThruSections_HeaderFile
+#include <BRepNaming_ThruSections.hxx>
+#endif

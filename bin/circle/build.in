@@ -1,0 +1,115 @@
+backGround = 2
+
+unitScale = -2
+
+<GeomCtrl theGeomCtrl>
+  <GeomBuilder polyBuilder1>
+    kind=polygon
+    name=co_axis_cyl_1
+  pnts=[0.0 0.0 0.0 \ 0.0 0.5 0.0 \ 0.0 0.5 4.0 \ 0.0 0.25 4.0 \ 0.0 0.25 6.0 \ 0.0 0.5 6.0 \ 0.0 0.5 10.0 \ 0.0 0.0 10.0 \ 0.0 0.0 0.0]
+  </GeomBuilder>
+  
+  <GeomBuilder polyBuilder2>
+    kind=polygon
+    name=co_axis_cyl_2
+  pnts=[0.0 0.25 4.0 \ 0.0 0.5 4.0 \ 0.0 0.5 6.0 \ 0.0 0.25 6.0 \ 0.0 0.25 4.0]
+  </GeomBuilder>
+  
+
+  <GeomBuilder faceBuilder1>
+    kind=face
+    isPlanar=1
+    name=polyFace_1
+    wireName=co_axis_cyl_1
+  </GeomBuilder>
+  
+  <GeomBuilder faceBuilder2>
+    kind=face
+    isPlanar=1
+    name=polyFace_2
+    wireName=co_axis_cyl_2
+  </GeomBuilder>
+
+
+
+  <GeomBuilder vecBuilder>
+    kind=vector
+    type=Dim
+    name=axis
+    dims=[0.0 0.0 100.0]
+  </GeomBuilder>
+
+  <GeomBuilder revolBuilder1>
+    kind=revolution
+    name=revolModel_1
+    type=oneWay
+    angle=360.0
+    base=polyFace_1
+    vector=axis
+    material=USERDEFINED
+    mask=1
+  </GeomBuilder>
+  
+  <GeomBuilder revolBuilder2>
+    kind=revolution
+    name=revolModel_2
+    type=oneWay
+    angle=360.0
+    base=polyFace_2
+    vector=axis
+    material=USERDEFINED
+    mask=2
+  </GeomBuilder>
+
+  <GeomBuilder selctionBuilder1>
+    kind=subFaceSelection
+    name=selection1
+    contextNodeName=revolModel_1
+    refPnt = [0.0 0.25 0.0]
+    material=INPUTMURPORT
+    #material=INPUTMURPORT
+    mask=4
+  </GeomBuilder>
+
+
+
+  <GeomBuilder selctionBuilder2>
+    kind=subFaceSelection
+    name=selection1
+    contextNodeName=revolModel_1
+    refPnt = [0.0 0.25 10.0]
+    material=OPENPORT
+    #material=OPENPORT
+    mask=5
+  </GeomBuilder>
+
+
+</GeomCtrl>
+
+
+<GridCtrl theGC>
+  #frequency = 3.0e9
+  waveLength = 0.05
+
+  org = [0.0 0.0 0.0]
+  axis = 2
+  rDir = 1
+
+  <GridDefine gd1>
+    dir = 1
+    kind = uniformGrid
+    waveResolutionRatio = 50
+  </GridDefine>
+
+  <GridDefine gd2>
+    dir = 2
+    kind = uniformGrid
+    waveResolutionRatio = 50
+  </GridDefine>
+
+</GridCtrl>
+
+
+geomAlgoTol = 1.0e-12
+PhiDim=4
+

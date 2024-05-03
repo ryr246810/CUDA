@@ -1,0 +1,9 @@
+#ifndef _TDocStd_Document_HeaderFile
+#include <TDocStd_Document.hxx>
+#endif
+#ifndef _TColStd_SequenceOfExtendedString_HeaderFile
+#include <TColStd_SequenceOfExtendedString.hxx>
+#endif
+#ifndef _OCAF_ApplicationBase_HeaderFile
+#include <OCAF_ApplicationBase.hxx>
+#endif

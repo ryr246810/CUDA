@@ -1,0 +1,95 @@
+backGround = 2
+
+unitScale = -2
+
+<GeomCtrl theGeomCtrl>
+  <GeomBuilder polyBuilder>
+    kind=polygon
+    name=co_axis_cyl
+    #pnts=[0.0 5.0 0.0 \ 0.0 5.9 0.0 \ 0.0 5.9 11.5 \ 0.0 0.0 11.5 \ 0.0 0.0 10.0 \ 0.0 2.0 10.0 \ 0.0 3.0 10.0 \ 0.0 5.0 10.0 \ 0.0 5.0 0.0]
+    #pnts=[0.0 1.0 0.0 \ 0.0 1.5 0.0 \ 0.0 1.5 10.0 \ 0.0 1.0 10.0 \ 0.0 1.0 6.0 \ 0.0 1.0 4.0 \ 0.0 1.0 0.0]
+    pnts=[0.0 1.0 0.0 \ 0.0 1.5 0.0 \ 0.0 1.5 10.0 \ 0.0 1.0 10.0 \ 0.0 1.0 0.0]
+  </GeomBuilder>
+
+  <GeomBuilder faceBuilder>
+    kind=face
+    isPlanar=1
+    name=polyFace
+    wireName=co_axis_cyl
+  </GeomBuilder>
+
+  <GeomBuilder vecBuilder>
+    kind=vector
+    type=Dim
+    name=axis
+    dims=[0.0 0.0 100.0]
+  </GeomBuilder>
+
+  <GeomBuilder revolBuilder>
+    kind=revolution
+    name=revolModel
+    type=oneWay
+    angle=360.0
+    base=polyFace
+    vector=axis
+    material=USEDEFINED
+    mask=1
+  </GeomBuilder>
+
+  <GeomBuilder selctionBuilder1>
+    kind=subFaceSelection
+    name=selection1
+    contextNodeName=revolModel
+    refPnt = [0.0 1.25 0.0]
+    material=INPUTMURPORT
+    mask=2
+  </GeomBuilder>
+  
+  <GeomBuilder selctionBuilder2>
+    kind=subFaceSelection
+    name=selection2
+    contextNodeName=revolModel
+    refPnt = [0.0 1.25 10.0]
+    material=OPENPORT
+    mask=3
+  </GeomBuilder>
+  
+  
+   <GeomBuilder selctionBuilder3>
+    kind=subFaceSelection
+    name=selection3
+    contextNodeName=revolModel
+   refPnt = [0.0 1.0 5.0]
+    mask=4
+  </GeomBuilder>
+
+
+</GeomCtrl>
+
+
+<GridCtrl theGC>
+  #frequency = 3.0e9
+  waveLength = 0.05
+
+  org = [0.0 0.0 0.0]
+  axis = 2
+  rDir = 1
+
+  <GridDefine gd1>
+    dir = 1
+    kind = uniformGrid
+    waveResolutionRatio = 50
+  </GridDefine>
+
+  <GridDefine gd2>
+    dir = 2
+    kind = uniformGrid
+    waveResolutionRatio = 50
+  </GridDefine>
+
+</GridCtrl>
+
+
+geomAlgoTol = 1.0e-12
+PhiDim=6
+

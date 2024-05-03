@@ -1,0 +1,10 @@
+//=======================================================================
+//function : ResultLabel
+//purpose  : Returns the result label.
+//=======================================================================
+
+inline const TDF_Label& BRepNaming_TopNaming::ResultLabel() const
+{
+  return myResultLabel;
+}
+

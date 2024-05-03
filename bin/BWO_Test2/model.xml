@@ -1,0 +1,3666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document format="XmlOcaf" xmlns="http://www.opencascade.org/OCAF/XML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opencascade.org/OCAF/XML /home/tzh/soft/occ730/share/opencascade/resources/XmlOcafResource/XmlOcaf.xsd">
+ <info date="2022-07-09" schemav="0" DocVersion="9" objnb="242">
+  <iitem>Copyright: Open Cascade, 2001-2002</iitem>
+  <iitem>REFERENCE_COUNTER: 0</iitem>
+  <iitem>MODIFICATION_COUNTER: 1</iitem>
+ </info>
+ <comments/>
+ <label tag="0">
+  <TDF_TagSource id="1">16</TDF_TagSource>
+  <TDataStd_TreeNode id="2" children="3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 "/>
+  <label tag="1">
+   <TDataXtd_Presentation id="19" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDF_Reference id="20">/document/label/label[@tag="1"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="21">1</TDF_TagSource>
+   <TDataStd_Name id="22">co_axis_cyl1</TDataStd_Name>
+   <TDataStd_TreeNode id="3" children="23 "/>
+   <TDataStd_UAttribute id="24" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="25">2</TDataStd_Integer>
+    <TDataStd_Name id="26">Curve function</TDataStd_Name>
+    <TFunction_Function id="27" guid="22d22e84-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="23"/>
+    <label tag="1">
+     <label tag="1">
+      <TDataStd_Integer id="28">59</TDataStd_Integer>
+     </label>
+     <label tag="3">
+      <TDataStd_RealArray id="29" last="177" delta="0">0 0 0.20000000000000001 0 0.90000000000000002 0.20000000000000001 0 0.94999999999999996 5.7000000000000002 0 1 5.7000000000000002 0 1 0 0 2.5 0 0 2.5 6 0 2.2999999999999998 6 0 2.2999999999999998 7 0 1.5 8.1999999999999993 0 1.5 9.6999999999999993 0 2.2999999999999998 9.6999999999999993 0 2.2999999999999998 10.6 0 1.5 10.6 0 1.5 12.4 0 1.7 12.4 0 1.7 12.6 0 1.3 13 0 1.3 13.4 0 1.7 13.800000000000001 0 1.7 14.199999999999999 0 1.3 14.6 0 1.3 15 0 1.7 15.4 0 1.7 15.800000000000001 0 1.3 16.199999999999999 0 1.3 16.600000000000001 0 1.7 17 0 1.7 17.399999999999999 0 1.3 17.800000000000001 0 1.3 18.199999999999999 0 1.7 18.600000000000001 0 1.7 19 0 1.3 19.399999999999999 0 1.3 19.800000000000001 0 1.7 20.199999999999999 0 1.7 20.600000000000001 0 1.3 21 0 1.3 21.399999999999999 0 1.7 21.800000000000001 0 1.7 22.199999999999999 0 1.3 22.600000000000001 0 1.3 23 0 1.7 23.399999999999999 0 1.7 23.800000000000001 0 1.3 24.199999999999999 0 1.3 24.600000000000001 0 1.7 25 0 1.7 25.399999999999999 0 1.3 25.800000000000001 0 1.3 26.199999999999999 0 1.5 26.5 0 1.5 26.699999999999999 0 2.2999999999999998 32.100000000000001 0 2.2999999999999998 33.100000000000001 0 2.5 33.100000000000001 0 2.5 50 0 0 50 0 0 0.20000000000000001</TDataStd_RealArray>
+     </label>
+    </label>
+    <label tag="2">
+     <TNaming_NamedShape id="30" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+117" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="2">
+   <TDataXtd_Presentation id="31" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDF_Reference id="32">/document/label/label[@tag="2"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="33">1</TDF_TagSource>
+   <TDataStd_Name id="34">co_axis_cyl2</TDataStd_Name>
+   <TDataStd_TreeNode id="4" children="35 "/>
+   <TDataStd_UAttribute id="36" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="37">2</TDataStd_Integer>
+    <TDataStd_Name id="38">Curve function</TDataStd_Name>
+    <TFunction_Function id="39" guid="22d22e84-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="35"/>
+    <label tag="1">
+     <label tag="1">
+      <TDataStd_Integer id="40">5</TDataStd_Integer>
+     </label>
+     <label tag="3">
+      <TDataStd_RealArray id="41" last="15" delta="0">0 1.7 17.399999999999999 0 1.3 17.800000000000001 0 1.3 18.199999999999999 0 1.7 18.600000000000001 0 1.7 17.399999999999999</TDataStd_RealArray>
+     </label>
+    </label>
+    <label tag="2">
+     <TNaming_NamedShape id="42" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+126" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="3">
+   <TDataXtd_Presentation id="43" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDF_Reference id="44">/document/label/label[@tag="3"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="45">1</TDF_TagSource>
+   <TDataStd_Name id="46">co_axis_cyl3</TDataStd_Name>
+   <TDataStd_TreeNode id="5" children="47 "/>
+   <TDataStd_UAttribute id="48" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="49">2</TDataStd_Integer>
+    <TDataStd_Name id="50">Curve function</TDataStd_Name>
+    <TFunction_Function id="51" guid="22d22e84-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="47"/>
+    <label tag="1">
+     <label tag="1">
+      <TDataStd_Integer id="52">5</TDataStd_Integer>
+     </label>
+     <label tag="3">
+      <TDataStd_RealArray id="53" last="15" delta="0">0 1.7 19 0 1.3 19.399999999999999 0 1.3 19.800000000000001 0 1.7 20.199999999999999 0 1.7 19</TDataStd_RealArray>
+     </label>
+    </label>
+    <label tag="2">
+     <TNaming_NamedShape id="54" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+135" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="4">
+   <TDataXtd_Presentation id="55" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDF_Reference id="56">/document/label/label[@tag="4"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="57">1</TDF_TagSource>
+   <TDataStd_Name id="58">co_axis_cyl4</TDataStd_Name>
+   <TDataStd_TreeNode id="6" children="59 "/>
+   <TDataStd_UAttribute id="60" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="61">2</TDataStd_Integer>
+    <TDataStd_Name id="62">Curve function</TDataStd_Name>
+    <TFunction_Function id="63" guid="22d22e84-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="59"/>
+    <label tag="1">
+     <label tag="1">
+      <TDataStd_Integer id="64">5</TDataStd_Integer>
+     </label>
+     <label tag="3">
+      <TDataStd_RealArray id="65" last="15" delta="0">0 1.7 20.600000000000001 0 1.3 21 0 1.3 21.399999999999999 0 1.7 21.800000000000001 0 1.7 20.600000000000001</TDataStd_RealArray>
+     </label>
+    </label>
+    <label tag="2">
+     <TNaming_NamedShape id="66" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+144" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="5">
+   <TDataXtd_Presentation id="67" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDataStd_Integer id="68">0</TDataStd_Integer>
+   <TDF_Reference id="69">/document/label/label[@tag="5"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="70">1</TDF_TagSource>
+   <TDataStd_Name id="71">polyFace1</TDataStd_Name>
+   <TDataStd_TreeNode id="7" children="72 "/>
+   <TDataStd_UAttribute id="73" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="74">1</TDataStd_Integer>
+    <TDataStd_Name id="75">Face function</TDataStd_Name>
+    <TFunction_Function id="76" guid="22d22e13-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="72"/>
+    <label tag="1">
+     <label tag="3">
+      <TDataStd_Integer id="77">1</TDataStd_Integer>
+     </label>
+     <label tag="4">
+      <TDF_Reference id="78">/document/label/label[@tag="1"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="79">0</TDataStd_Integer>
+     <TNaming_NamedShape id="80" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+145" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="6">
+   <TDataXtd_Presentation id="81" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDataStd_Integer id="82">0</TDataStd_Integer>
+   <TDF_Reference id="83">/document/label/label[@tag="6"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="84">1</TDF_TagSource>
+   <TDataStd_Name id="85">polyFace2</TDataStd_Name>
+   <TDataStd_TreeNode id="8" children="86 "/>
+   <TDataStd_UAttribute id="87" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="88">1</TDataStd_Integer>
+    <TDataStd_Name id="89">Face function</TDataStd_Name>
+    <TFunction_Function id="90" guid="22d22e13-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="86"/>
+    <label tag="1">
+     <label tag="3">
+      <TDataStd_Integer id="91">1</TDataStd_Integer>
+     </label>
+     <label tag="4">
+      <TDF_Reference id="92">/document/label/label[@tag="2"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="93">0</TDataStd_Integer>
+     <TNaming_NamedShape id="94" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+146" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="7">
+   <TDataXtd_Presentation id="95" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDataStd_Integer id="96">0</TDataStd_Integer>
+   <TDF_Reference id="97">/document/label/label[@tag="7"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="98">1</TDF_TagSource>
+   <TDataStd_Name id="99">polyFace3</TDataStd_Name>
+   <TDataStd_TreeNode id="9" children="100 "/>
+   <TDataStd_UAttribute id="101" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="102">1</TDataStd_Integer>
+    <TDataStd_Name id="103">Face function</TDataStd_Name>
+    <TFunction_Function id="104" guid="22d22e13-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="100"/>
+    <label tag="1">
+     <label tag="3">
+      <TDataStd_Integer id="105">1</TDataStd_Integer>
+     </label>
+     <label tag="4">
+      <TDF_Reference id="106">/document/label/label[@tag="3"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="107">0</TDataStd_Integer>
+     <TNaming_NamedShape id="108" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+147" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="8">
+   <TDataXtd_Presentation id="109" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDataStd_Integer id="110">0</TDataStd_Integer>
+   <TDF_Reference id="111">/document/label/label[@tag="8"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="112">1</TDF_TagSource>
+   <TDataStd_Name id="113">polyFace4</TDataStd_Name>
+   <TDataStd_TreeNode id="10" children="114 "/>
+   <TDataStd_UAttribute id="115" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="116">1</TDataStd_Integer>
+    <TDataStd_Name id="117">Face function</TDataStd_Name>
+    <TFunction_Function id="118" guid="22d22e13-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="114"/>
+    <label tag="1">
+     <label tag="3">
+      <TDataStd_Integer id="119">1</TDataStd_Integer>
+     </label>
+     <label tag="4">
+      <TDF_Reference id="120">/document/label/label[@tag="4"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="121">0</TDataStd_Integer>
+     <TNaming_NamedShape id="122" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+148" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="9">
+   <TDataXtd_Presentation id="123" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDataStd_Integer id="124">0</TDataStd_Integer>
+   <TDF_Reference id="125">/document/label/label[@tag="9"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="126">1</TDF_TagSource>
+   <TDataStd_Name id="127">axis</TDataStd_Name>
+   <TDataStd_TreeNode id="11" children="128 "/>
+   <TDataStd_UAttribute id="129" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="130">2</TDataStd_Integer>
+    <TDataStd_Name id="131">Vector function</TDataStd_Name>
+    <TFunction_Function id="132" guid="22d22e05-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="128"/>
+    <label tag="1">
+     <label tag="2">
+      <TDataStd_Real id="133">0</TDataStd_Real>
+     </label>
+     <label tag="3">
+      <TDataStd_Real id="134">0</TDataStd_Real>
+     </label>
+     <label tag="4">
+      <TDataStd_Real id="135">100</TDataStd_Real>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="136">0</TDataStd_Integer>
+     <TNaming_NamedShape id="137" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+151" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="10">
+   <TDataXtd_Presentation id="138" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDataStd_Integer id="139">1</TDataStd_Integer>
+   <TDF_Reference id="140">/document/label/label[@tag="10"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="141">1</TDF_TagSource>
+   <TDataStd_Name id="142">revolModel1</TDataStd_Name>
+   <TDataStd_TreeNode id="12" children="143 "/>
+   <TDataStd_UAttribute id="144" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="145">1</TDataStd_Integer>
+    <TDataStd_Name id="146">Revolution function</TDataStd_Name>
+    <TFunction_Function id="147" guid="22d22e55-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="143"/>
+    <label tag="1">
+     <label tag="1">
+      <TDataStd_Real id="148">360</TDataStd_Real>
+     </label>
+     <label tag="2">
+      <TDF_Reference id="149">/document/label/label[@tag="9"]/label[@tag="1"]</TDF_Reference>
+     </label>
+     <label tag="3">
+      <TDF_Reference id="150">/document/label/label[@tag="5"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="151">3</TDataStd_Integer>
+     <TNaming_NamedShape id="152" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+330" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="11">
+   <TDataXtd_Presentation id="153" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDataStd_Integer id="154">2</TDataStd_Integer>
+   <TDF_Reference id="155">/document/label/label[@tag="11"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="156">1</TDF_TagSource>
+   <TDataStd_Name id="157">revolModel2</TDataStd_Name>
+   <TDataStd_TreeNode id="13" children="158 "/>
+   <TDataStd_UAttribute id="159" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="160">1</TDataStd_Integer>
+    <TDataStd_Name id="161">Revolution function</TDataStd_Name>
+    <TFunction_Function id="162" guid="22d22e55-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="158"/>
+    <label tag="1">
+     <label tag="1">
+      <TDataStd_Real id="163">360</TDataStd_Real>
+     </label>
+     <label tag="2">
+      <TDF_Reference id="164">/document/label/label[@tag="9"]/label[@tag="1"]</TDF_Reference>
+     </label>
+     <label tag="3">
+      <TDF_Reference id="165">/document/label/label[@tag="6"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="166">3</TDataStd_Integer>
+     <TNaming_NamedShape id="167" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+344" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="12">
+   <TDataXtd_Presentation id="168" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDataStd_Integer id="169">3</TDataStd_Integer>
+   <TDF_Reference id="170">/document/label/label[@tag="12"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="171">1</TDF_TagSource>
+   <TDataStd_Name id="172">revolModel3</TDataStd_Name>
+   <TDataStd_TreeNode id="14" children="173 "/>
+   <TDataStd_UAttribute id="174" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="175">1</TDataStd_Integer>
+    <TDataStd_Name id="176">Revolution function</TDataStd_Name>
+    <TFunction_Function id="177" guid="22d22e55-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="173"/>
+    <label tag="1">
+     <label tag="1">
+      <TDataStd_Real id="178">360</TDataStd_Real>
+     </label>
+     <label tag="2">
+      <TDF_Reference id="179">/document/label/label[@tag="9"]/label[@tag="1"]</TDF_Reference>
+     </label>
+     <label tag="3">
+      <TDF_Reference id="180">/document/label/label[@tag="7"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="181">3</TDataStd_Integer>
+     <TNaming_NamedShape id="182" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+358" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="13">
+   <TDataXtd_Presentation id="183" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDataStd_Integer id="184">4</TDataStd_Integer>
+   <TDF_Reference id="185">/document/label/label[@tag="13"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="186">1</TDF_TagSource>
+   <TDataStd_Name id="187">revolModel4</TDataStd_Name>
+   <TDataStd_TreeNode id="15" children="188 "/>
+   <TDataStd_UAttribute id="189" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="190">1</TDataStd_Integer>
+    <TDataStd_Name id="191">Revolution function</TDataStd_Name>
+    <TFunction_Function id="192" guid="22d22e55-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="188"/>
+    <label tag="1">
+     <label tag="1">
+      <TDataStd_Real id="193">360</TDataStd_Real>
+     </label>
+     <label tag="2">
+      <TDF_Reference id="194">/document/label/label[@tag="9"]/label[@tag="1"]</TDF_Reference>
+     </label>
+     <label tag="3">
+      <TDF_Reference id="195">/document/label/label[@tag="8"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="196">3</TDataStd_Integer>
+     <TNaming_NamedShape id="197" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+372" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="14">
+   <TDataStd_Integer id="198">5</TDataStd_Integer>
+   <TDF_Reference id="199">/document/label/label[@tag="14"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="200">1</TDF_TagSource>
+   <TDataStd_Name id="201">selection1</TDataStd_Name>
+   <TDataStd_TreeNode id="16" children="202 "/>
+   <TDataStd_UAttribute id="203" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Name id="204">Naming function</TDataStd_Name>
+    <TFunction_Function id="205" guid="22d22e57-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="202"/>
+    <label tag="1">
+     <label tag="1">
+      <TDF_Reference id="206">/document/label/label[@tag="10"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="207">9</TDataStd_Integer>
+     <TNaming_Naming id="208" nametype="identity" shapetype="face" arguments="209 " index="-1" contextlabel="" orientation="0"/>
+     <TNaming_NamedShape id="210" evolution="selected">
+      <olds>
+       <shape tshape="+168" index="1"/>
+      </olds>
+      <news>
+       <shape tshape="+168" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+     <TDF_TagSource id="211">1</TDF_TagSource>
+     <label tag="1">
+      <TNaming_NamedShape id="209" evolution="selected">
+       <olds>
+        <shape tshape="+168" index="1"/>
+       </olds>
+       <news>
+        <shape tshape="+168" index="1"/>
+       </news>
+      </TNaming_NamedShape>
+      <TNaming_Naming id="212" nametype="unknown" shapetype="face" index="-1" contextlabel="" orientation="0"/>
+     </label>
+    </label>
+   </label>
+  </label>
+  <label tag="15">
+   <TDataStd_Integer id="213">6</TDataStd_Integer>
+   <TDF_Reference id="214">/document/label/label[@tag="15"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="215">1</TDF_TagSource>
+   <TDataStd_Name id="216">selection2</TDataStd_Name>
+   <TDataStd_TreeNode id="17" children="217 "/>
+   <TDataStd_UAttribute id="218" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Name id="219">Naming function</TDataStd_Name>
+    <TFunction_Function id="220" guid="22d22e57-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="217"/>
+    <label tag="1">
+     <label tag="1">
+      <TDF_Reference id="221">/document/label/label[@tag="10"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="222">4</TDataStd_Integer>
+     <TNaming_Naming id="223" nametype="identity" shapetype="face" arguments="224 " index="-1" contextlabel="" orientation="0"/>
+     <TNaming_NamedShape id="225" evolution="selected">
+      <olds>
+       <shape tshape="+328" index="1"/>
+      </olds>
+      <news>
+       <shape tshape="+328" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+     <TDF_TagSource id="226">1</TDF_TagSource>
+     <label tag="1">
+      <TNaming_NamedShape id="224" evolution="selected">
+       <olds>
+        <shape tshape="+328" index="1"/>
+       </olds>
+       <news>
+        <shape tshape="+328" index="1"/>
+       </news>
+      </TNaming_NamedShape>
+      <TNaming_Naming id="227" nametype="unknown" shapetype="face" index="-1" contextlabel="" orientation="0"/>
+     </label>
+    </label>
+   </label>
+  </label>
+  <label tag="16">
+   <TDataStd_Integer id="228">7</TDataStd_Integer>
+   <TDF_Reference id="229">/document/label/label[@tag="16"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="230">1</TDF_TagSource>
+   <TDataStd_Name id="231">selection3</TDataStd_Name>
+   <TDataStd_TreeNode id="18" children="232 "/>
+   <TDataStd_UAttribute id="233" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Name id="234">Naming function</TDataStd_Name>
+    <TFunction_Function id="235" guid="22d22e57-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="232"/>
+    <label tag="1">
+     <label tag="1">
+      <TDF_Reference id="236">/document/label/label[@tag="10"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="237">0</TDataStd_Integer>
+     <TNaming_Naming id="238" nametype="identity" shapetype="face" arguments="239 " index="-1" contextlabel="" orientation="0"/>
+     <TNaming_NamedShape id="240" evolution="selected">
+      <olds>
+       <shape tshape="+161" index="1"/>
+      </olds>
+      <news>
+       <shape tshape="+161" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+     <TDF_TagSource id="241">1</TDF_TagSource>
+     <label tag="1">
+      <TNaming_NamedShape id="239" evolution="selected">
+       <olds>
+        <shape tshape="+161" index="1"/>
+       </olds>
+       <news>
+        <shape tshape="+161" index="1"/>
+       </news>
+      </TNaming_NamedShape>
+      <TNaming_Naming id="242" nametype="unknown" shapetype="face" index="-1" contextlabel="" orientation="0"/>
+     </label>
+    </label>
+   </label>
+  </label>
+ </label>
+ <shapes>
+CASCADE Topology V2, (c) Matra-Datavision
+Locations 0
+Curve2ds 256
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+2 0 0 -1 0 0 1 0.90000000000000002
+1 0 0 1 0 
+1 0 5.5002272680317494 1 0 
+2 0 0 -1 0 0 1 0.94999999999999996
+2 0 0 -1 0 0 1 1
+1 0 0 1 0 
+1 0 5.7000000000000002 1 0 
+2 0 0 -1 0 0 1 1
+2 0 0 -1 0 0 1 2.5
+1 0 0 1 0 
+1 0 6 1 0 
+2 0 0 1 0 -0 1 2.5
+2 0 0 1 0 -0 1 2.2999999999999998
+1 0 0 1 0 
+1 0 1 1 0 
+1 0 0 1 0 
+1 0 1.4422205101855949 1 0 
+1 0 0 1 0 
+1 0 1.5 1 0 
+2 0 0 -1 0 0 1 1.5
+2 0 0 -1 0 0 1 2.2999999999999998
+1 0 0 1 0 
+1 0 0.90000000000000036 1 0 
+2 0 0 1 0 -0 1 2.2999999999999998
+2 0 0 1 0 -0 1 1.5
+1 0 0 1 0 
+1 0 1.8000000000000007 1 0 
+2 0 0 -1 0 0 1 1.5
+2 0 0 -1 0 0 1 1.7
+1 0 0 1 0 
+1 0 0.19999999999999929 1 0 
+1 0 0 1 0 
+1 0 0.56568542494923824 1 0 
+1 0 0 1 0 
+1 0 0.40000000000000036 1 0 
+1 0 0 1 0 
+1 0 0.56568542494923824 1 0 
+1 0 0 1 0 
+1 0 0.39999999999999858 1 0 
+1 0 0 1 0 
+1 0 0.56568542494923824 1 0 
+1 0 0 1 0 
+1 0 0.40000000000000036 1 0 
+1 0 0 1 0 
+1 0 0.56568542494923824 1 0 
+1 0 0 1 0 
+1 0 0.40000000000000036 1 0 
+1 0 0 1 0 
+1 0 0.5656854249492369 1 0 
+1 0 0 1 0 
+1 0 0.40000000000000213 1 0 
+1 0 0 1 0 
+1 0 0.5656854249492369 1 0 
+1 0 0 1 0 
+1 0 0.39999999999999858 1 0 
+1 0 0 1 0 
+1 0 0.56568542494923946 1 0 
+1 0 0 1 0 
+1 0 0.39999999999999858 1 0 
+1 0 0 1 0 
+1 0 0.56568542494923946 1 0 
+1 0 0 1 0 
+1 0 0.39999999999999858 1 0 
+1 0 0 1 0 
+1 0 0.5656854249492369 1 0 
+1 0 0 1 0 
+1 0 0.40000000000000213 1 0 
+1 0 0 1 0 
+1 0 0.5656854249492369 1 0 
+1 0 0 1 0 
+1 0 0.40000000000000213 1 0 
+1 0 0 1 0 
+1 0 0.5656854249492369 1 0 
+1 0 0 1 0 
+1 0 0.39999999999999858 1 0 
+1 0 0 1 0 
+1 0 0.56568542494923946 1 0 
+1 0 0 1 0 
+1 0 0.39999999999999858 1 0 
+1 0 0 1 0 
+1 0 0.56568542494923946 1 0 
+1 0 0 1 0 
+1 0 0.39999999999999858 1 0 
+1 0 0 1 0 
+1 0 0.5656854249492369 1 0 
+1 0 0 1 0 
+1 0 0.40000000000000213 1 0 
+1 0 0 1 0 
+1 0 0.5656854249492369 1 0 
+1 0 0 1 0 
+1 0 0.40000000000000213 1 0 
+1 0 0 1 0 
+1 0 0.5656854249492369 1 0 
+1 0 0 1 0 
+1 0 0.39999999999999858 1 0 
+1 0 0 1 0 
+1 0 0.56568542494923946 1 0 
+1 0 0 1 0 
+1 0 0.39999999999999858 1 0 
+1 0 0 1 0 
+1 0 0.36055512754639946 1 0 
+1 0 0 1 0 
+1 0 0.19999999999999929 1 0 
+1 0 0 1 0 
+1 0 5.4589376255824735 1 0 
+1 0 0 1 0 
+1 0 1 1 0 
+2 0 0 -1 0 0 1 2.2999999999999998
+2 0 0 -1 0 0 1 2.5
+1 0 0 1 0 
+1 0 16.899999999999999 1 0 
+2 0 0 1 0 -0 1 2.5
+1 0 0 1 0 
+1 0 1.2000000000000028 1 0 
+1 0 0.56568542494923946 1 0 
+1 0 0 1 0 
+1 0 0.39999999999999858 1 0 
+1 0 0 1 0 
+1 0 0.56568542494923946 1 0 
+1 0 0 1 0 
+1 0 0 1 0 
+1 0 1.1999999999999993 1 0 
+1 0 0.5656854249492369 1 0 
+1 0 0 1 0 
+1 0 0.40000000000000213 1 0 
+1 0 0 1 0 
+1 0 0.5656854249492369 1 0 
+1 0 0 1 0 
+1 0 0 1 0 
+1 0 1.1999999999999993 1 0 
+1 0 0.5656854249492369 1 0 
+1 0 0 1 0 
+1 0 0.39999999999999858 1 0 
+1 0 0 1 0 
+1 0 0.56568542494923946 1 0 
+1 0 0 1 0 
+Curves 139
+1 0 0 0.20000000000000001 0 1 0 
+1 0 0.90000000000000002 0.20000000000000001 0 0.0090905334567915747 0.99995868024707446 
+1 0 0.94999999999999996 5.7000000000000002 0 1 0 
+1 0 1 5.7000000000000002 0 0 -1 
+1 0 1 0 0 1 0 
+1 0 2.5 0 0 0 1 
+1 0 2.5 6 0 -1 0 
+1 0 2.2999999999999998 6 0 0 1 
+1 0 2.2999999999999998 7 0 -0.55470019622522926 0.8320502943378435 
+1 0 1.5 8.1999999999999993 0 0 1 
+1 0 1.5 9.6999999999999993 0 1 0 
+1 0 2.2999999999999998 9.6999999999999993 0 0 1 
+1 0 2.2999999999999998 10.6 0 -1 0 
+1 0 1.5 10.6 0 0 1 
+1 0 1.5 12.4 0 1 0 
+1 0 1.7 12.4 0 0 1 
+1 0 1.7 12.6 0 -0.70710678118654724 0.70710678118654802 
+1 0 1.3 13 0 0 1 
+1 0 1.3 13.4 0 0.70710678118654724 0.70710678118654802 
+1 0 1.7 13.800000000000001 0 0 1 
+1 0 1.7 14.199999999999999 0 -0.70710678118654724 0.70710678118654802 
+1 0 1.3 14.6 0 0 1 
+1 0 1.3 15 0 0.70710678118654724 0.70710678118654802 
+1 0 1.7 15.4 0 0 1 
+1 0 1.7 15.800000000000001 0 -0.70710678118654879 0.70710678118654646 
+1 0 1.3 16.199999999999999 0 0 1 
+1 0 1.3 16.600000000000001 0 0.70710678118654879 0.70710678118654646 
+1 0 1.7 17 0 0 1 
+1 0 1.7 17.399999999999999 0 -0.70710678118654557 0.70710678118654946 
+1 0 1.3 17.800000000000001 0 0 1 
+1 0 1.3 18.199999999999999 0 0.70710678118654557 0.70710678118654946 
+1 0 1.7 18.600000000000001 0 0 1 
+1 0 1.7 19 0 -0.70710678118654879 0.70710678118654646 
+1 0 1.3 19.399999999999999 0 0 1 
+1 0 1.3 19.800000000000001 0 0.70710678118654879 0.70710678118654646 
+1 0 1.7 20.199999999999999 0 0 1 
+1 0 1.7 20.600000000000001 0 -0.70710678118654879 0.70710678118654646 
+1 0 1.3 21 0 0 1 
+1 0 1.3 21.399999999999999 0 0.70710678118654557 0.70710678118654946 
+1 0 1.7 21.800000000000001 0 0 1 
+1 0 1.7 22.199999999999999 0 -0.70710678118654557 0.70710678118654946 
+1 0 1.3 22.600000000000001 0 0 1 
+1 0 1.3 23 0 0.70710678118654879 0.70710678118654646 
+1 0 1.7 23.399999999999999 0 0 1 
+1 0 1.7 23.800000000000001 0 -0.70710678118654879 0.70710678118654646 
+1 0 1.3 24.199999999999999 0 0 1 
+1 0 1.3 24.600000000000001 0 0.70710678118654879 0.70710678118654646 
+1 0 1.7 25 0 0 1 
+1 0 1.7 25.399999999999999 0 -0.70710678118654557 0.70710678118654946 
+1 0 1.3 25.800000000000001 0 0 1 
+1 0 1.3 26.199999999999999 0 0.55470019622522815 0.83205029433784439 
+1 0 1.5 26.5 0 0 1 
+1 0 1.5 26.699999999999999 0 0.14654866108946224 0.9892034623538708 
+1 0 2.2999999999999998 32.100000000000001 0 0 1 
+1 0 2.2999999999999998 33.100000000000001 0 1 0 
+1 0 2.5 33.100000000000001 0 0 1 
+1 0 2.5 50 0 -1 0 
+1 0 0 50 0 0 -1 
+1 0 1.7 17.399999999999999 0 -0.70710678118654557 0.70710678118654946 
+1 0 1.3 17.800000000000001 0 0 1 
+1 0 1.3 18.199999999999999 0 0.70710678118654557 0.70710678118654946 
+1 0 1.7 18.600000000000001 0 0 -1 
+1 0 1.7 19 0 -0.70710678118654879 0.70710678118654646 
+1 0 1.3 19.399999999999999 0 0 1 
+1 0 1.3 19.800000000000001 0 0.70710678118654879 0.70710678118654646 
+1 0 1.7 20.199999999999999 0 0 -1 
+1 0 1.7 20.600000000000001 0 -0.70710678118654879 0.70710678118654646 
+1 0 1.3 21 0 0 1 
+1 0 1.3 21.399999999999999 0 0.70710678118654557 0.70710678118654946 
+1 0 1.7 21.800000000000001 0 0 -1 
+1 0 0 0 0 0 1 
+2 0 0 0.20000000000000001 0 0 1 0 1 0 -1 0 0 0.90000000000000002
+2 0 0 5.7000000000000002 0 0 1 0 1 0 -1 0 0 0.94999999999999996
+2 0 0 5.7000000000000002 0 0 1 0 1 0 -1 0 0 1
+2 0 0 0 0 0 1 0 1 0 -1 0 0 1
+2 0 0 0 0 0 1 0 1 0 -1 0 0 2.5
+2 0 0 6 0 0 1 0 1 0 -1 0 0 2.5
+2 0 0 6 0 0 1 0 1 0 -1 0 0 2.2999999999999998
+2 0 0 7 0 0 1 0 1 0 -1 0 0 2.2999999999999998
+2 0 0 8.1999999999999993 0 0 1 0 1 0 -1 0 0 1.5
+2 0 0 9.6999999999999993 0 0 1 0 1 0 -1 0 0 1.5
+2 0 0 9.6999999999999993 0 0 1 0 1 0 -1 0 0 2.2999999999999998
+2 0 0 10.6 0 0 1 0 1 0 -1 0 0 2.2999999999999998
+2 0 0 10.6 0 0 1 0 1 0 -1 0 0 1.5
+2 0 0 12.4 0 0 1 0 1 0 -1 0 0 1.5
+2 0 0 12.4 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 12.6 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 13 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 13.4 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 13.800000000000001 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 14.199999999999999 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 14.6 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 15 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 15.4 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 15.800000000000001 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 16.199999999999999 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 16.600000000000001 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 17 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 17.399999999999999 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 17.800000000000001 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 18.199999999999999 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 18.600000000000001 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 19 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 19.399999999999999 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 19.800000000000001 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 20.199999999999999 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 20.600000000000001 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 21 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 21.399999999999999 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 21.800000000000001 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 22.199999999999999 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 22.600000000000001 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 23 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 23.399999999999999 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 23.800000000000001 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 24.199999999999999 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 24.600000000000001 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 25 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 25.399999999999999 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 25.800000000000001 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 26.199999999999999 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 26.5 0 0 1 0 1 0 -1 0 0 1.5
+2 0 0 26.699999999999999 0 0 1 0 1 0 -1 0 0 1.5
+2 0 0 32.100000000000001 0 0 1 0 1 0 -1 0 0 2.2999999999999998
+2 0 0 33.100000000000001 0 0 1 0 1 0 -1 0 0 2.2999999999999998
+2 0 0 33.100000000000001 0 0 1 0 1 0 -1 0 0 2.5
+2 0 0 50 0 0 1 0 1 0 -1 0 0 2.5
+2 0 0 17.399999999999999 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 17.800000000000001 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 18.199999999999999 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 18.600000000000001 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 19 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 19.399999999999999 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 19.800000000000001 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 20.199999999999999 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 20.600000000000001 0 0 1 0 1 0 -1 0 0 1.7
+2 0 0 21 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 21.399999999999999 0 0 1 0 1 0 -1 0 0 1.3
+2 0 0 21.800000000000001 0 0 1 0 1 0 -1 0 0 1.7
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 73
+3 0 0 0.20000000000000001 0 0 1 0 1 0 -1 0 0 0.90000000000000002
+0.0090906586650598056
+2 0 0 5.7000000000000002 -0 -0 -1 0 1 -0 -1 0 -0 1
+2 0 0 0 0 0 1 0 1 0 -1 0 0 2.5
+2 0 0 6 0 0 1 0 1 0 -1 0 0 2.2999999999999998
+3 0 0 7 0 0 1 0 1 0 -1 0 0 2.2999999999999998
+-0.58800260354756773
+2 0 0 8.1999999999999993 0 0 1 0 1 0 -1 0 0 1.5
+2 0 0 9.6999999999999993 0 0 1 0 1 0 -1 0 0 2.2999999999999998
+2 0 0 10.6 0 0 1 0 1 0 -1 0 0 1.5
+2 0 0 12.4 0 0 1 0 1 0 -1 0 0 1.7
+3 0 0 12.6 0 0 1 0 1 0 -1 0 0 1.7
+-0.78539816339744761
+2 0 0 13 0 0 1 0 1 0 -1 0 0 1.3
+3 0 0 13.4 0 0 1 0 1 0 -1 0 0 1.3
+0.78539816339744761
+2 0 0 13.800000000000001 0 0 1 0 1 0 -1 0 0 1.7
+3 0 0 14.199999999999999 0 0 1 0 1 0 -1 0 0 1.7
+-0.78539816339744761
+2 0 0 14.6 0 0 1 0 1 0 -1 0 0 1.3
+3 0 0 15 0 0 1 0 1 0 -1 0 0 1.3
+0.78539816339744761
+2 0 0 15.4 0 0 1 0 1 0 -1 0 0 1.7
+3 0 0 15.800000000000001 0 0 1 0 1 0 -1 0 0 1.7
+-0.78539816339744983
+2 0 0 16.199999999999999 0 0 1 0 1 0 -1 0 0 1.3
+3 0 0 16.600000000000001 0 0 1 0 1 0 -1 0 0 1.3
+0.78539816339744983
+2 0 0 17 0 0 1 0 1 0 -1 0 0 1.7
+3 0 0 17.399999999999999 0 0 1 0 1 0 -1 0 0 1.7
+-0.78539816339744561
+2 0 0 17.800000000000001 0 0 1 0 1 0 -1 0 0 1.3
+3 0 0 18.199999999999999 0 0 1 0 1 0 -1 0 0 1.3
+0.78539816339744561
+2 0 0 18.600000000000001 0 0 1 0 1 0 -1 0 0 1.7
+3 0 0 19 0 0 1 0 1 0 -1 0 0 1.7
+-0.78539816339744983
+2 0 0 19.399999999999999 0 0 1 0 1 0 -1 0 0 1.3
+3 0 0 19.800000000000001 0 0 1 0 1 0 -1 0 0 1.3
+0.78539816339744983
+2 0 0 20.199999999999999 0 0 1 0 1 0 -1 0 0 1.7
+3 0 0 20.600000000000001 0 0 1 0 1 0 -1 0 0 1.7
+-0.78539816339744983
+2 0 0 21 0 0 1 0 1 0 -1 0 0 1.3
+3 0 0 21.399999999999999 0 0 1 0 1 0 -1 0 0 1.3
+0.78539816339744561
+2 0 0 21.800000000000001 0 0 1 0 1 0 -1 0 0 1.7
+3 0 0 22.199999999999999 0 0 1 0 1 0 -1 0 0 1.7
+-0.78539816339744561
+2 0 0 22.600000000000001 0 0 1 0 1 0 -1 0 0 1.3
+3 0 0 23 0 0 1 0 1 0 -1 0 0 1.3
+0.78539816339744983
+2 0 0 23.399999999999999 0 0 1 0 1 0 -1 0 0 1.7
+3 0 0 23.800000000000001 0 0 1 0 1 0 -1 0 0 1.7
+-0.78539816339744983
+2 0 0 24.199999999999999 0 0 1 0 1 0 -1 0 0 1.3
+3 0 0 24.600000000000001 0 0 1 0 1 0 -1 0 0 1.3
+0.78539816339744983
+2 0 0 25 0 0 1 0 1 0 -1 0 0 1.7
+3 0 0 25.399999999999999 0 0 1 0 1 0 -1 0 0 1.7
+-0.78539816339744561
+2 0 0 25.800000000000001 0 0 1 0 1 0 -1 0 0 1.3
+3 0 0 26.199999999999999 0 0 1 0 1 0 -1 0 0 1.3
+0.58800260354756639
+2 0 0 26.5 0 0 1 0 1 0 -1 0 0 1.5
+3 0 0 26.699999999999999 0 0 1 0 1 0 -1 0 0 1.5
+0.14707835538840239
+2 0 0 32.100000000000001 0 0 1 0 1 0 -1 0 0 2.2999999999999998
+2 0 0 33.100000000000001 0 0 1 0 1 0 -1 0 0 2.5
+3 0 0 17.399999999999999 0 0 1 0 1 0 -1 0 0 1.7
+-0.78539816339744561
+2 0 0 17.800000000000001 0 0 1 0 1 0 -1 0 0 1.3
+3 0 0 18.199999999999999 0 0 1 0 1 0 -1 0 0 1.3
+0.78539816339744561
+2 0 0 18.600000000000001 -0 -0 -1 0 1 -0 -1 0 -0 1.7
+3 0 0 19 0 0 1 0 1 0 -1 0 0 1.7
+-0.78539816339744983
+2 0 0 19.399999999999999 0 0 1 0 1 0 -1 0 0 1.3
+3 0 0 19.800000000000001 0 0 1 0 1 0 -1 0 0 1.3
+0.78539816339744983
+2 0 0 20.199999999999999 -0 -0 -1 0 1 -0 -1 0 -0 1.7
+3 0 0 20.600000000000001 0 0 1 0 1 0 -1 0 0 1.7
+-0.78539816339744983
+2 0 0 21 0 0 1 0 1 0 -1 0 0 1.3
+3 0 0 21.399999999999999 0 0 1 0 1 0 -1 0 0 1.3
+0.78539816339744561
+2 0 0 21.800000000000001 -0 -0 -1 0 1 -0 -1 0 -0 1.7
+1 0 1.0630916692127377 22.613834056032999 1 0 0 -0 0 1 0 -1 0 
+1 0 1.5585786437626905 18 -1 -0 -0 0 0 -1 0 -1 0 
+1 0 1.5585786437626903 19.599999999999998 -1 -0 -0 0 0 -1 0 -1 0 
+1 0 1.5585786437626907 21.199999999999999 -1 -0 -0 0 0 -1 0 -1 0 
+1 0 0 0.20000000000000001 0 0 1 -0 -1 0 -1 0 0 
+1 0 0 5.7000000000000002 0 0 1 -0 -1 -0 -1 0 0 
+1 0 0 0 0 0 1 -0 -1 -0 -1 0 0 
+1 0 0 6 0 0 1 0 1 0 -1 0 0 
+1 0 0 9.6999999999999993 0 0 1 -0 -1 -0 -1 0 0 
+1 0 0 10.6 0 0 1 0 1 0 -1 0 0 
+1 0 0 12.4 0 0 1 -0 -1 -0 -1 0 0 
+1 0 0 33.100000000000001 0 0 1 -0 -1 -0 -1 0 0 
+1 0 0 50 0 0 1 0 1 0 -1 0 0 
+Triangulations 0
+
+TShapes 372
+Ve
+1e-07
+0 0 0.2
+0 0
+
+0101101
+*
+Ve
+1e-07
+0 0.9 0.2
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  1 0 0 0.9
+0
+
+0101000
++372 0 -371 0 *
+Ve
+1e-07
+0 0.95 5.7
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  2 0 0 5.50022726803175
+3  1 2CN 1 0 0 5.50022726803175
+0 0 0 5.50022726803175
+0
+
+0101000
++371 0 -369 0 *
+Ve
+1e-07
+0 1 5.7
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  3 0 0 0.05
+0
+
+0101000
++369 0 -367 0 *
+Ve
+1e-07
+0 1 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  4 0 0 5.7
+3  3 4CN 2 0 0 5.7
+0 0 0 5.7
+0
+
+0101000
++367 0 -365 0 *
+Ve
+1e-07
+0 2.5 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  5 0 0 1.5
+0
+
+0101000
++365 0 -363 0 *
+Ve
+1e-07
+0 2.5 6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  6 0 0 6
+3  5 6CN 3 0 0 6
+0 0 0 6
+0
+
+0101000
++363 0 -361 0 *
+Ve
+1e-07
+0 2.3 6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  7 0 0 0.2
+0
+
+0101000
++361 0 -359 0 *
+Ve
+1e-07
+0 2.3 7
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  8 0 0 1
+3  7 8CN 4 0 0 1
+0 0 0 1
+0
+
+0101000
++359 0 -357 0 *
+Ve
+1e-07
+0 1.5 8.2
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  9 0 0 1.4422205101856
+3  9 10CN 5 0 0 1.4422205101856
+0 0 0 1.4422205101856
+0
+
+0101000
++357 0 -355 0 *
+Ve
+1e-07
+0 1.5 9.7
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  10 0 0 1.5
+3  11 12CN 6 0 0 1.5
+0 0 0 1.5
+0
+
+0101000
++355 0 -353 0 *
+Ve
+1e-07
+0 2.3 9.7
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  11 0 0 0.8
+0
+
+0101000
++353 0 -351 0 *
+Ve
+1e-07
+0 2.3 10.6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  12 0 0 0.9
+3  13 14CN 7 0 0 0.9
+0 0 0 0.9
+0
+
+0101000
++351 0 -349 0 *
+Ve
+1e-07
+0 1.5 10.6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  13 0 0 0.8
+0
+
+0101000
++349 0 -347 0 *
+Ve
+1e-07
+0 1.5 12.4
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  14 0 0 1.8
+3  15 16CN 8 0 0 1.8
+0 0 0 1.8
+0
+
+0101000
++347 0 -345 0 *
+Ve
+1e-07
+0 1.7 12.4
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  15 0 0 0.2
+0
+
+0101000
++345 0 -343 0 *
+Ve
+1e-07
+0 1.7 12.6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  16 0 0 0.199999999999999
+3  17 18CN 9 0 0 0.199999999999999
+0 0 0 0.199999999999999
+0
+
+0101000
++343 0 -341 0 *
+Ve
+1e-07
+0 1.3 13
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  17 0 0 0.565685424949238
+3  19 20CN 10 0 0 0.565685424949238
+0 0 0 0.565685424949238
+0
+
+0101000
++341 0 -339 0 *
+Ve
+1e-07
+0 1.3 13.4
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  18 0 0 0.4
+3  21 22CN 11 0 0 0.4
+0 0 0 0.4
+0
+
+0101000
++339 0 -337 0 *
+Ve
+1e-07
+0 1.7 13.8
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  19 0 0 0.565685424949238
+3  23 24CN 12 0 0 0.565685424949238
+0 0 0 0.565685424949238
+0
+
+0101000
++337 0 -335 0 *
+Ve
+1e-07
+0 1.7 14.2
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  20 0 0 0.399999999999999
+3  25 26CN 13 0 0 0.399999999999999
+0 0 0 0.399999999999999
+0
+
+0101000
++335 0 -333 0 *
+Ve
+1e-07
+0 1.3 14.6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  21 0 0 0.565685424949238
+3  27 28CN 14 0 0 0.565685424949238
+0 0 0 0.565685424949238
+0
+
+0101000
++333 0 -331 0 *
+Ve
+1e-07
+0 1.3 15
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  22 0 0 0.4
+3  29 30CN 15 0 0 0.4
+0 0 0 0.4
+0
+
+0101000
++331 0 -329 0 *
+Ve
+1e-07
+0 1.7 15.4
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  23 0 0 0.565685424949238
+3  31 32CN 16 0 0 0.565685424949238
+0 0 0 0.565685424949238
+0
+
+0101000
++329 0 -327 0 *
+Ve
+1e-07
+0 1.7 15.8
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  24 0 0 0.4
+3  33 34CN 17 0 0 0.4
+0 0 0 0.4
+0
+
+0101000
++327 0 -325 0 *
+Ve
+1e-07
+0 1.3 16.2
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  25 0 0 0.565685424949237
+3  35 36CN 18 0 0 0.565685424949237
+0 0 0 0.565685424949237
+0
+
+0101000
++325 0 -323 0 *
+Ve
+1e-07
+0 1.3 16.6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  26 0 0 0.400000000000002
+3  37 38CN 19 0 0 0.400000000000002
+0 0 0 0.400000000000002
+0
+
+0101000
++323 0 -321 0 *
+Ve
+1e-07
+0 1.7 17
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  27 0 0 0.565685424949237
+3  39 40CN 20 0 0 0.565685424949237
+0 0 0 0.565685424949237
+0
+
+0101000
++321 0 -319 0 *
+Ve
+1e-07
+0 1.7 17.4
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  28 0 0 0.399999999999999
+3  41 42CN 21 0 0 0.399999999999999
+0 0 0 0.399999999999999
+0
+
+0101000
++319 0 -317 0 *
+Ve
+1e-07
+0 1.3 17.8
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  29 0 0 0.565685424949239
+3  43 44CN 22 0 0 0.565685424949239
+0 0 0 0.565685424949239
+0
+
+0101000
++317 0 -315 0 *
+Ve
+1e-07
+0 1.3 18.2
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  30 0 0 0.399999999999999
+3  45 46CN 23 0 0 0.399999999999999
+0 0 0 0.399999999999999
+0
+
+0101000
++315 0 -313 0 *
+Ve
+1e-07
+0 1.7 18.6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  31 0 0 0.565685424949239
+3  47 48CN 24 0 0 0.565685424949239
+0 0 0 0.565685424949239
+0
+
+0101000
++313 0 -311 0 *
+Ve
+1e-07
+0 1.7 19
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  32 0 0 0.399999999999999
+3  49 50CN 25 0 0 0.399999999999999
+0 0 0 0.399999999999999
+0
+
+0101000
++311 0 -309 0 *
+Ve
+1e-07
+0 1.3 19.4
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  33 0 0 0.565685424949237
+3  51 52CN 26 0 0 0.565685424949237
+0 0 0 0.565685424949237
+0
+
+0101000
++309 0 -307 0 *
+Ve
+1e-07
+0 1.3 19.8
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  34 0 0 0.400000000000002
+3  53 54CN 27 0 0 0.400000000000002
+0 0 0 0.400000000000002
+0
+
+0101000
++307 0 -305 0 *
+Ve
+1e-07
+0 1.7 20.2
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  35 0 0 0.565685424949237
+3  55 56CN 28 0 0 0.565685424949237
+0 0 0 0.565685424949237
+0
+
+0101000
++305 0 -303 0 *
+Ve
+1e-07
+0 1.7 20.6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  36 0 0 0.400000000000002
+3  57 58CN 29 0 0 0.400000000000002
+0 0 0 0.400000000000002
+0
+
+0101000
++303 0 -301 0 *
+Ve
+1e-07
+0 1.3 21
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  37 0 0 0.565685424949237
+3  59 60CN 30 0 0 0.565685424949237
+0 0 0 0.565685424949237
+0
+
+0101000
++301 0 -299 0 *
+Ve
+1e-07
+0 1.3 21.4
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  38 0 0 0.399999999999999
+3  61 62CN 31 0 0 0.399999999999999
+0 0 0 0.399999999999999
+0
+
+0101000
++299 0 -297 0 *
+Ve
+1e-07
+0 1.7 21.8
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  39 0 0 0.565685424949239
+3  63 64CN 32 0 0 0.565685424949239
+0 0 0 0.565685424949239
+0
+
+0101000
++297 0 -295 0 *
+Ve
+1e-07
+0 1.7 22.2
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  40 0 0 0.399999999999999
+3  65 66CN 33 0 0 0.399999999999999
+0 0 0 0.399999999999999
+0
+
+0101000
++295 0 -293 0 *
+Ve
+1e-07
+0 1.3 22.6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  41 0 0 0.565685424949239
+3  67 68CN 34 0 0 0.565685424949239
+0 0 0 0.565685424949239
+0
+
+0101000
++293 0 -291 0 *
+Ve
+1e-07
+0 1.3 23
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  42 0 0 0.399999999999999
+3  69 70CN 35 0 0 0.399999999999999
+0 0 0 0.399999999999999
+0
+
+0101000
++291 0 -289 0 *
+Ve
+1e-07
+0 1.7 23.4
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  43 0 0 0.565685424949237
+3  71 72CN 36 0 0 0.565685424949237
+0 0 0 0.565685424949237
+0
+
+0101000
++289 0 -287 0 *
+Ve
+1e-07
+0 1.7 23.8
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  44 0 0 0.400000000000002
+3  73 74CN 37 0 0 0.400000000000002
+0 0 0 0.400000000000002
+0
+
+0101000
++287 0 -285 0 *
+Ve
+1e-07
+0 1.3 24.2
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  45 0 0 0.565685424949237
+3  75 76CN 38 0 0 0.565685424949237
+0 0 0 0.565685424949237
+0
+
+0101000
++285 0 -283 0 *
+Ve
+1e-07
+0 1.3 24.6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  46 0 0 0.400000000000002
+3  77 78CN 39 0 0 0.400000000000002
+0 0 0 0.400000000000002
+0
+
+0101000
++283 0 -281 0 *
+Ve
+1e-07
+0 1.7 25
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  47 0 0 0.565685424949237
+3  79 80CN 40 0 0 0.565685424949237
+0 0 0 0.565685424949237
+0
+
+0101000
++281 0 -279 0 *
+Ve
+1e-07
+0 1.7 25.4
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  48 0 0 0.399999999999999
+3  81 82CN 41 0 0 0.399999999999999
+0 0 0 0.399999999999999
+0
+
+0101000
++279 0 -277 0 *
+Ve
+1e-07
+0 1.3 25.8
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  49 0 0 0.565685424949239
+3  83 84CN 42 0 0 0.565685424949239
+0 0 0 0.565685424949239
+0
+
+0101000
++277 0 -275 0 *
+Ve
+1e-07
+0 1.3 26.2
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  50 0 0 0.399999999999999
+3  85 86CN 43 0 0 0.399999999999999
+0 0 0 0.399999999999999
+0
+
+0101000
++275 0 -273 0 *
+Ve
+1e-07
+0 1.5 26.5
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  51 0 0 0.360555127546399
+3  87 88CN 44 0 0 0.360555127546399
+0 0 0 0.360555127546399
+0
+
+0101000
++273 0 -271 0 *
+Ve
+1e-07
+0 1.5 26.7
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  52 0 0 0.199999999999999
+3  89 90CN 45 0 0 0.199999999999999
+0 0 0 0.199999999999999
+0
+
+0101000
++271 0 -269 0 *
+Ve
+1e-07
+0 2.3 32.1
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  53 0 0 5.45893762558247
+3  91 92CN 46 0 0 5.45893762558247
+0 0 0 5.45893762558247
+0
+
+0101000
++269 0 -267 0 *
+Ve
+1e-07
+0 2.3 33.1
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  54 0 0 1
+3  93 94CN 47 0 0 1
+0 0 0 1
+0
+
+0101000
++267 0 -265 0 *
+Ve
+1e-07
+0 2.5 33.1
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  55 0 0 0.2
+0
+
+0101000
++265 0 -263 0 *
+Ve
+1e-07
+0 2.5 50
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  56 0 0 16.9
+3  95 96CN 48 0 0 16.9
+0 0 0 16.9
+0
+
+0101000
++263 0 -261 0 *
+Ve
+1e-07
+0 0 50
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  57 0 0 2.5
+0
+
+0101000
++261 0 -259 0 *
+Ed
+ 1e-07 1 1 0
+1  58 0 0 49.8
+0
+
+0101000
++259 0 -372 0 *
+Wi
+
+0101100
++370 0 +368 0 +366 0 +364 0 +362 0 +360 0 +358 0 +356 0 +354 0 +352 0 
++350 0 +348 0 +346 0 +344 0 +342 0 +340 0 +338 0 +336 0 +334 0 +332 0 
++330 0 +328 0 +326 0 +324 0 +322 0 +320 0 +318 0 +316 0 +314 0 +312 0 
++310 0 +308 0 +306 0 +304 0 +302 0 +300 0 +298 0 +296 0 +294 0 +292 0 
++290 0 +288 0 +286 0 +284 0 +282 0 +280 0 +278 0 +276 0 +274 0 +272 0 
++270 0 +268 0 +266 0 +264 0 +262 0 +260 0 +258 0 +257 0 *
+Ve
+1e-07
+0 1.7 17.4
+0 0
+
+0101101
+*
+Ve
+1e-07
+0 1.3 17.8
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  59 0 0 0.565685424949239
+3  97 98CN 49 0 0 0.565685424949239
+0 0 0 0.565685424949239
+0
+
+0101000
++255 0 -254 0 *
+Ve
+1e-07
+0 1.3 18.2
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  60 0 0 0.399999999999999
+3  99 100CN 50 0 0 0.399999999999999
+0 0 0 0.399999999999999
+0
+
+0101000
++254 0 -252 0 *
+Ve
+1e-07
+0 1.7 18.6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  61 0 0 0.565685424949239
+3  101 102CN 51 0 0 0.565685424949239
+0 0 0 0.565685424949239
+0
+
+0101000
++252 0 -250 0 *
+Ed
+ 1e-07 1 1 0
+1  62 0 0 1.2
+3  103 104CN 52 0 0 1.2
+0 0 0 1.2
+0
+
+0101000
++250 0 -255 0 *
+Wi
+
+0101100
++253 0 +251 0 +249 0 +248 0 *
+Ve
+1e-07
+0 1.7 19
+0 0
+
+0101101
+*
+Ve
+1e-07
+0 1.3 19.4
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  63 0 0 0.565685424949237
+3  105 106CN 53 0 0 0.565685424949237
+0 0 0 0.565685424949237
+0
+
+0101000
++246 0 -245 0 *
+Ve
+1e-07
+0 1.3 19.8
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  64 0 0 0.400000000000002
+3  107 108CN 54 0 0 0.400000000000002
+0 0 0 0.400000000000002
+0
+
+0101000
++245 0 -243 0 *
+Ve
+1e-07
+0 1.7 20.2
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  65 0 0 0.565685424949237
+3  109 110CN 55 0 0 0.565685424949237
+0 0 0 0.565685424949237
+0
+
+0101000
++243 0 -241 0 *
+Ed
+ 1e-07 1 1 0
+1  66 0 0 1.2
+3  111 112CN 56 0 0 1.2
+0 0 0 1.2
+0
+
+0101000
++241 0 -246 0 *
+Wi
+
+0101100
++244 0 +242 0 +240 0 +239 0 *
+Ve
+1e-07
+0 1.7 20.6
+0 0
+
+0101101
+*
+Ve
+1e-07
+0 1.3 21
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  67 0 0 0.565685424949237
+3  113 114CN 57 0 0 0.565685424949237
+0 0 0 0.565685424949237
+0
+
+0101000
++237 0 -236 0 *
+Ve
+1e-07
+0 1.3 21.4
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  68 0 0 0.399999999999999
+3  115 116CN 58 0 0 0.399999999999999
+0 0 0 0.399999999999999
+0
+
+0101000
++236 0 -234 0 *
+Ve
+1e-07
+0 1.7 21.8
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  69 0 0 0.565685424949239
+3  117 118CN 59 0 0 0.565685424949239
+0 0 0 0.565685424949239
+0
+
+0101000
++234 0 -232 0 *
+Ed
+ 1e-07 1 1 0
+1  70 0 0 1.2
+3  119 120CN 60 0 0 1.2
+0 0 0 1.2
+0
+
+0101000
++232 0 -237 0 *
+Wi
+
+0101100
++235 0 +233 0 +231 0 +230 0 *
+Fa
+0  1e-07 61 0
+
+1111000
++256 0 *
+Fa
+0  1e-07 62 0
+
+1111000
++247 0 *
+Fa
+0  1e-07 63 0
+
+1111000
++238 0 *
+Fa
+0  1e-07 64 0
+
+1111000
++229 0 *
+Ve
+1e-07
+0 0 0
+0 0
+
+0101101
+*
+Ve
+1e-07
+0 0 100
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  71 0 0 100
+0
+
+1101000
++224 0 -223 0 *
+Ed
+ 1e-07 1 1 0
+1  72 0 0 6.28318530717959
+2  121 65 0 0 6.28318530717959
+-0.9 0 -0.9 -2.20436423846524e-16
+2  122 1 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++371 0 -371 0 *
+Wi
+
+0101100
+-221 0 *
+Fa
+0  1e-07 65 0
+
+0111000
++220 0 *
+Ed
+ 1e-07 1 1 0
+1  73 0 0 6.28318530717959
+2  123 1 0 0 6.28318530717959
+0 5.50022726803175 6.28318530717959 5.50022726803175
+2  124 66 0 0 6.28318530717959
+-0.95 0 -0.95 -2.32682891837997e-16
+0
+
+0101000
++369 0 -369 0 *
+Wi
+
+0101100
++221 0 -218 0 -368 0 +368 0 *
+Fa
+0  1e-07 1 0
+
+0111000
++217 0 *
+Wi
+
+0101100
++218 0 *
+Ed
+ 1e-07 1 1 0
+1  74 0 0 6.28318530717959
+2  125 66 0 0 6.28318530717959
+-1 0 -1 -2.44929359829471e-16
+2  126 2 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++367 0 -367 0 *
+Wi
+
+0101100
+-214 0 *
+Fa
+0  1e-07 66 0
+
+0111000
++215 0 +213 0 *
+Ed
+ 1e-07 1 1 0
+1  75 0 0 6.28318530717959
+2  127 2 0 0 6.28318530717959
+0 5.7 6.28318530717959 5.7
+2  128 67 0 0 6.28318530717959
+-1 0 -1 -2.44929359829471e-16
+0
+
+0101000
++365 0 -365 0 *
+Wi
+
+0101100
++214 0 -211 0 -364 0 +364 0 *
+Fa
+0  1e-07 2 0
+
+0111000
++210 0 *
+Wi
+
+0101100
++211 0 *
+Ed
+ 1e-07 1 1 0
+1  76 0 0 6.28318530717959
+2  129 67 0 0 6.28318530717959
+-2.5 0 -2.5 -6.12323399573677e-16
+2  130 3 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++363 0 -363 0 *
+Wi
+
+0101100
+-207 0 *
+Fa
+0  1e-07 67 0
+
+0111000
++208 0 +206 0 *
+Ed
+ 1e-07 1 1 0
+1  77 0 0 6.28318530717959
+2  131 3 0 0 6.28318530717959
+0 6 6.28318530717959 6
+2  132 68 0 0 6.28318530717959
+2.5 0 2.5 -6.12323399573677e-16
+0
+
+0101000
++361 0 -361 0 *
+Wi
+
+0101100
++207 0 -204 0 -360 0 +360 0 *
+Fa
+0  1e-07 3 0
+
+0111000
++203 0 *
+Wi
+
+0101100
++204 0 *
+Ed
+ 1e-07 1 1 0
+1  78 0 0 6.28318530717959
+2  133 68 0 0 6.28318530717959
+2.3 0 2.3 -5.63337527607782e-16
+2  134 4 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++359 0 -359 0 *
+Wi
+
+0101100
+-200 0 *
+Fa
+0  1e-07 68 0
+
+0111000
++201 0 +199 0 *
+Ed
+ 1e-07 1 1 0
+1  79 0 0 6.28318530717959
+2  135 4 0 0 6.28318530717959
+0 1 6.28318530717959 1
+2  136 5 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++357 0 -357 0 *
+Wi
+
+0101100
++200 0 -197 0 -356 0 +356 0 *
+Fa
+0  1e-07 4 0
+
+0111000
++196 0 *
+Ed
+ 1e-07 1 1 0
+1  80 0 0 6.28318530717959
+2  137 5 0 0 6.28318530717959
+0 1.44222051018559 6.28318530717959 1.44222051018559
+2  138 6 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++355 0 -355 0 *
+Wi
+
+0101100
++197 0 -194 0 -354 0 +354 0 *
+Fa
+0  1e-07 5 0
+
+0111000
++193 0 *
+Ed
+ 1e-07 1 1 0
+1  81 0 0 6.28318530717959
+2  139 6 0 0 6.28318530717959
+0 1.5 6.28318530717959 1.5
+2  140 69 0 0 6.28318530717959
+-1.5 0 -1.5 -3.67394039744206e-16
+0
+
+0101000
++353 0 -353 0 *
+Wi
+
+0101100
++194 0 -191 0 -352 0 +352 0 *
+Fa
+0  1e-07 6 0
+
+0111000
++190 0 *
+Wi
+
+0101100
++191 0 *
+Ed
+ 1e-07 1 1 0
+1  82 0 0 6.28318530717959
+2  141 69 0 0 6.28318530717959
+-2.3 0 -2.3 -5.63337527607782e-16
+2  142 7 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++351 0 -351 0 *
+Wi
+
+0101100
+-187 0 *
+Fa
+0  1e-07 69 0
+
+0111000
++188 0 +186 0 *
+Ed
+ 1e-07 1 1 0
+1  83 0 0 6.28318530717959
+2  143 7 0 0 6.28318530717959
+0 0.9 6.28318530717959 0.9
+2  144 70 0 0 6.28318530717959
+2.3 0 2.3 -5.63337527607782e-16
+0
+
+0101000
++349 0 -349 0 *
+Wi
+
+0101100
++187 0 -184 0 -348 0 +348 0 *
+Fa
+0  1e-07 7 0
+
+0111000
++183 0 *
+Wi
+
+0101100
++184 0 *
+Ed
+ 1e-07 1 1 0
+1  84 0 0 6.28318530717959
+2  145 70 0 0 6.28318530717959
+1.5 0 1.5 -3.67394039744206e-16
+2  146 8 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++347 0 -347 0 *
+Wi
+
+0101100
+-180 0 *
+Fa
+0  1e-07 70 0
+
+0111000
++181 0 +179 0 *
+Ed
+ 1e-07 1 1 0
+1  85 0 0 6.28318530717959
+2  147 8 0 0 6.28318530717959
+0 1.8 6.28318530717959 1.8
+2  148 71 0 0 6.28318530717959
+-1.5 0 -1.5 -3.67394039744206e-16
+0
+
+0101000
++345 0 -345 0 *
+Wi
+
+0101100
++180 0 -177 0 -344 0 +344 0 *
+Fa
+0  1e-07 8 0
+
+0111000
++176 0 *
+Wi
+
+0101100
++177 0 *
+Ed
+ 1e-07 1 1 0
+1  86 0 0 6.28318530717959
+2  149 71 0 0 6.28318530717959
+-1.7 0 -1.7 -4.163799117101e-16
+2  150 9 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++343 0 -343 0 *
+Wi
+
+0101100
+-173 0 *
+Fa
+0  1e-07 71 0
+
+0111000
++174 0 +172 0 *
+Ed
+ 1e-07 1 1 0
+1  87 0 0 6.28318530717959
+2  151 9 0 0 6.28318530717959
+0 0.199999999999999 6.28318530717959 0.199999999999999
+2  152 10 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++341 0 -341 0 *
+Wi
+
+0101100
++173 0 -170 0 -340 0 +340 0 *
+Fa
+0  1e-07 9 0
+
+0111000
++169 0 *
+Ed
+ 1e-07 1 1 0
+1  88 0 0 6.28318530717959
+2  153 10 0 0 6.28318530717959
+0 0.565685424949238 6.28318530717959 0.565685424949238
+2  154 11 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++339 0 -339 0 *
+Wi
+
+0101100
++170 0 -167 0 -338 0 +338 0 *
+Fa
+0  1e-07 10 0
+
+0111000
++166 0 *
+Ed
+ 1e-07 1 1 0
+1  89 0 0 6.28318530717959
+2  155 11 0 0 6.28318530717959
+0 0.4 6.28318530717959 0.4
+2  156 12 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++337 0 -337 0 *
+Wi
+
+0101100
++167 0 -164 0 -336 0 +336 0 *
+Fa
+0  1e-07 11 0
+
+0111000
++163 0 *
+Ed
+ 1e-07 1 1 0
+1  90 0 0 6.28318530717959
+2  157 12 0 0 6.28318530717959
+0 0.565685424949238 6.28318530717959 0.565685424949238
+2  158 13 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++335 0 -335 0 *
+Wi
+
+0101100
++164 0 -161 0 -334 0 +334 0 *
+Fa
+0  1e-07 12 0
+
+0111000
++160 0 *
+Ed
+ 1e-07 1 1 0
+1  91 0 0 6.28318530717959
+2  159 13 0 0 6.28318530717959
+0 0.399999999999999 6.28318530717959 0.399999999999999
+2  160 14 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++333 0 -333 0 *
+Wi
+
+0101100
++161 0 -158 0 -332 0 +332 0 *
+Fa
+0  1e-07 13 0
+
+0111000
++157 0 *
+Ed
+ 1e-07 1 1 0
+1  92 0 0 6.28318530717959
+2  161 14 0 0 6.28318530717959
+0 0.565685424949238 6.28318530717959 0.565685424949238
+2  162 15 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++331 0 -331 0 *
+Wi
+
+0101100
++158 0 -155 0 -330 0 +330 0 *
+Fa
+0  1e-07 14 0
+
+0111000
++154 0 *
+Ed
+ 1e-07 1 1 0
+1  93 0 0 6.28318530717959
+2  163 15 0 0 6.28318530717959
+0 0.4 6.28318530717959 0.4
+2  164 16 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++329 0 -329 0 *
+Wi
+
+0101100
++155 0 -152 0 -328 0 +328 0 *
+Fa
+0  1e-07 15 0
+
+0111000
++151 0 *
+Ed
+ 1e-07 1 1 0
+1  94 0 0 6.28318530717959
+2  165 16 0 0 6.28318530717959
+0 0.565685424949238 6.28318530717959 0.565685424949238
+2  166 17 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++327 0 -327 0 *
+Wi
+
+0101100
++152 0 -149 0 -326 0 +326 0 *
+Fa
+0  1e-07 16 0
+
+0111000
++148 0 *
+Ed
+ 1e-07 1 1 0
+1  95 0 0 6.28318530717959
+2  167 17 0 0 6.28318530717959
+0 0.4 6.28318530717959 0.4
+2  168 18 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++325 0 -325 0 *
+Wi
+
+0101100
++149 0 -146 0 -324 0 +324 0 *
+Fa
+0  1e-07 17 0
+
+0111000
++145 0 *
+Ed
+ 1e-07 1 1 0
+1  96 0 0 6.28318530717959
+2  169 18 0 0 6.28318530717959
+0 0.565685424949237 6.28318530717959 0.565685424949237
+2  170 19 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++323 0 -323 0 *
+Wi
+
+0101100
++146 0 -143 0 -322 0 +322 0 *
+Fa
+0  1e-07 18 0
+
+0111000
++142 0 *
+Ed
+ 1e-07 1 1 0
+1  97 0 0 6.28318530717959
+2  171 19 0 0 6.28318530717959
+0 0.400000000000002 6.28318530717959 0.400000000000002
+2  172 20 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++321 0 -321 0 *
+Wi
+
+0101100
++143 0 -140 0 -320 0 +320 0 *
+Fa
+0  1e-07 19 0
+
+0111000
++139 0 *
+Ed
+ 1e-07 1 1 0
+1  98 0 0 6.28318530717959
+2  173 20 0 0 6.28318530717959
+0 0.565685424949237 6.28318530717959 0.565685424949237
+2  174 21 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++319 0 -319 0 *
+Wi
+
+0101100
++140 0 -137 0 -318 0 +318 0 *
+Fa
+0  1e-07 20 0
+
+0111000
++136 0 *
+Ed
+ 1e-07 1 1 0
+1  99 0 0 6.28318530717959
+2  175 21 0 0 6.28318530717959
+0 0.399999999999999 6.28318530717959 0.399999999999999
+2  176 22 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++317 0 -317 0 *
+Wi
+
+0101100
++137 0 -134 0 -316 0 +316 0 *
+Fa
+0  1e-07 21 0
+
+0111000
++133 0 *
+Ed
+ 1e-07 1 1 0
+1  100 0 0 6.28318530717959
+2  177 22 0 0 6.28318530717959
+0 0.565685424949239 6.28318530717959 0.565685424949239
+2  178 23 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++315 0 -315 0 *
+Wi
+
+0101100
++134 0 -131 0 -314 0 +314 0 *
+Fa
+0  1e-07 22 0
+
+0111000
++130 0 *
+Ed
+ 1e-07 1 1 0
+1  101 0 0 6.28318530717959
+2  179 23 0 0 6.28318530717959
+0 0.399999999999999 6.28318530717959 0.399999999999999
+2  180 24 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++313 0 -313 0 *
+Wi
+
+0101100
++131 0 -128 0 -312 0 +312 0 *
+Fa
+0  1e-07 23 0
+
+0111000
++127 0 *
+Ed
+ 1e-07 1 1 0
+1  102 0 0 6.28318530717959
+2  181 24 0 0 6.28318530717959
+0 0.565685424949239 6.28318530717959 0.565685424949239
+2  182 25 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++311 0 -311 0 *
+Wi
+
+0101100
++128 0 -125 0 -310 0 +310 0 *
+Fa
+0  1e-07 24 0
+
+0111000
++124 0 *
+Ed
+ 1e-07 1 1 0
+1  103 0 0 6.28318530717959
+2  183 25 0 0 6.28318530717959
+0 0.399999999999999 6.28318530717959 0.399999999999999
+2  184 26 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++309 0 -309 0 *
+Wi
+
+0101100
++125 0 -122 0 -308 0 +308 0 *
+Fa
+0  1e-07 25 0
+
+0111000
++121 0 *
+Ed
+ 1e-07 1 1 0
+1  104 0 0 6.28318530717959
+2  185 26 0 0 6.28318530717959
+0 0.565685424949237 6.28318530717959 0.565685424949237
+2  186 27 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++307 0 -307 0 *
+Wi
+
+0101100
++122 0 -119 0 -306 0 +306 0 *
+Fa
+0  1e-07 26 0
+
+0111000
++118 0 *
+Ed
+ 1e-07 1 1 0
+1  105 0 0 6.28318530717959
+2  187 27 0 0 6.28318530717959
+0 0.400000000000002 6.28318530717959 0.400000000000002
+2  188 28 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++305 0 -305 0 *
+Wi
+
+0101100
++119 0 -116 0 -304 0 +304 0 *
+Fa
+0  1e-07 27 0
+
+0111000
++115 0 *
+Ed
+ 1e-07 1 1 0
+1  106 0 0 6.28318530717959
+2  189 28 0 0 6.28318530717959
+0 0.565685424949237 6.28318530717959 0.565685424949237
+2  190 29 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++303 0 -303 0 *
+Wi
+
+0101100
++116 0 -113 0 -302 0 +302 0 *
+Fa
+0  1e-07 28 0
+
+0111000
++112 0 *
+Ed
+ 1e-07 1 1 0
+1  107 0 0 6.28318530717959
+2  191 29 0 0 6.28318530717959
+0 0.400000000000002 6.28318530717959 0.400000000000002
+2  192 30 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++301 0 -301 0 *
+Wi
+
+0101100
++113 0 -110 0 -300 0 +300 0 *
+Fa
+0  1e-07 29 0
+
+0111000
++109 0 *
+Ed
+ 1e-07 1 1 0
+1  108 0 0 6.28318530717959
+2  193 30 0 0 6.28318530717959
+0 0.565685424949237 6.28318530717959 0.565685424949237
+2  194 31 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++299 0 -299 0 *
+Wi
+
+0101100
++110 0 -107 0 -298 0 +298 0 *
+Fa
+0  1e-07 30 0
+
+0111000
++106 0 *
+Ed
+ 1e-07 1 1 0
+1  109 0 0 6.28318530717959
+2  195 31 0 0 6.28318530717959
+0 0.399999999999999 6.28318530717959 0.399999999999999
+2  196 32 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++297 0 -297 0 *
+Wi
+
+0101100
++107 0 -104 0 -296 0 +296 0 *
+Fa
+0  1e-07 31 0
+
+0111000
++103 0 *
+Ed
+ 1e-07 1 1 0
+1  110 0 0 6.28318530717959
+2  197 32 0 0 6.28318530717959
+0 0.565685424949239 6.28318530717959 0.565685424949239
+2  198 33 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++295 0 -295 0 *
+Wi
+
+0101100
++104 0 -101 0 -294 0 +294 0 *
+Fa
+0  1e-07 32 0
+
+0111000
++100 0 *
+Ed
+ 1e-07 1 1 0
+1  111 0 0 6.28318530717959
+2  199 33 0 0 6.28318530717959
+0 0.399999999999999 6.28318530717959 0.399999999999999
+2  200 34 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++293 0 -293 0 *
+Wi
+
+0101100
++101 0 -98 0 -292 0 +292 0 *
+Fa
+0  1e-07 33 0
+
+0111000
++97 0 *
+Ed
+ 1e-07 1 1 0
+1  112 0 0 6.28318530717959
+2  201 34 0 0 6.28318530717959
+0 0.565685424949239 6.28318530717959 0.565685424949239
+2  202 35 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++291 0 -291 0 *
+Wi
+
+0101100
++98 0 -95 0 -290 0 +290 0 *
+Fa
+0  1e-07 34 0
+
+0111000
++94 0 *
+Ed
+ 1e-07 1 1 0
+1  113 0 0 6.28318530717959
+2  203 35 0 0 6.28318530717959
+0 0.399999999999999 6.28318530717959 0.399999999999999
+2  204 36 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++289 0 -289 0 *
+Wi
+
+0101100
++95 0 -92 0 -288 0 +288 0 *
+Fa
+0  1e-07 35 0
+
+0111000
++91 0 *
+Ed
+ 1e-07 1 1 0
+1  114 0 0 6.28318530717959
+2  205 36 0 0 6.28318530717959
+0 0.565685424949237 6.28318530717959 0.565685424949237
+2  206 37 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++287 0 -287 0 *
+Wi
+
+0101100
++92 0 -89 0 -286 0 +286 0 *
+Fa
+0  1e-07 36 0
+
+0111000
++88 0 *
+Ed
+ 1e-07 1 1 0
+1  115 0 0 6.28318530717959
+2  207 37 0 0 6.28318530717959
+0 0.400000000000002 6.28318530717959 0.400000000000002
+2  208 38 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++285 0 -285 0 *
+Wi
+
+0101100
++89 0 -86 0 -284 0 +284 0 *
+Fa
+0  1e-07 37 0
+
+0111000
++85 0 *
+Ed
+ 1e-07 1 1 0
+1  116 0 0 6.28318530717959
+2  209 38 0 0 6.28318530717959
+0 0.565685424949237 6.28318530717959 0.565685424949237
+2  210 39 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++283 0 -283 0 *
+Wi
+
+0101100
++86 0 -83 0 -282 0 +282 0 *
+Fa
+0  1e-07 38 0
+
+0111000
++82 0 *
+Ed
+ 1e-07 1 1 0
+1  117 0 0 6.28318530717959
+2  211 39 0 0 6.28318530717959
+0 0.400000000000002 6.28318530717959 0.400000000000002
+2  212 40 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++281 0 -281 0 *
+Wi
+
+0101100
++83 0 -80 0 -280 0 +280 0 *
+Fa
+0  1e-07 39 0
+
+0111000
++79 0 *
+Ed
+ 1e-07 1 1 0
+1  118 0 0 6.28318530717959
+2  213 40 0 0 6.28318530717959
+0 0.565685424949237 6.28318530717959 0.565685424949237
+2  214 41 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++279 0 -279 0 *
+Wi
+
+0101100
++80 0 -77 0 -278 0 +278 0 *
+Fa
+0  1e-07 40 0
+
+0111000
++76 0 *
+Ed
+ 1e-07 1 1 0
+1  119 0 0 6.28318530717959
+2  215 41 0 0 6.28318530717959
+0 0.399999999999999 6.28318530717959 0.399999999999999
+2  216 42 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++277 0 -277 0 *
+Wi
+
+0101100
++77 0 -74 0 -276 0 +276 0 *
+Fa
+0  1e-07 41 0
+
+0111000
++73 0 *
+Ed
+ 1e-07 1 1 0
+1  120 0 0 6.28318530717959
+2  217 42 0 0 6.28318530717959
+0 0.565685424949239 6.28318530717959 0.565685424949239
+2  218 43 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++275 0 -275 0 *
+Wi
+
+0101100
++74 0 -71 0 -274 0 +274 0 *
+Fa
+0  1e-07 42 0
+
+0111000
++70 0 *
+Ed
+ 1e-07 1 1 0
+1  121 0 0 6.28318530717959
+2  219 43 0 0 6.28318530717959
+0 0.399999999999999 6.28318530717959 0.399999999999999
+2  220 44 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++273 0 -273 0 *
+Wi
+
+0101100
++71 0 -68 0 -272 0 +272 0 *
+Fa
+0  1e-07 43 0
+
+0111000
++67 0 *
+Ed
+ 1e-07 1 1 0
+1  122 0 0 6.28318530717959
+2  221 44 0 0 6.28318530717959
+0 0.360555127546399 6.28318530717959 0.360555127546399
+2  222 45 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++271 0 -271 0 *
+Wi
+
+0101100
++68 0 -65 0 -270 0 +270 0 *
+Fa
+0  1e-07 44 0
+
+0111000
++64 0 *
+Ed
+ 1e-07 1 1 0
+1  123 0 0 6.28318530717959
+2  223 45 0 0 6.28318530717959
+0 0.199999999999999 6.28318530717959 0.199999999999999
+2  224 46 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++269 0 -269 0 *
+Wi
+
+0101100
++65 0 -62 0 -268 0 +268 0 *
+Fa
+0  1e-07 45 0
+
+0111000
++61 0 *
+Ed
+ 1e-07 1 1 0
+1  124 0 0 6.28318530717959
+2  225 46 0 0 6.28318530717959
+0 5.45893762558247 6.28318530717959 5.45893762558247
+2  226 47 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++267 0 -267 0 *
+Wi
+
+0101100
++62 0 -59 0 -266 0 +266 0 *
+Fa
+0  1e-07 46 0
+
+0111000
++58 0 *
+Ed
+ 1e-07 1 1 0
+1  125 0 0 6.28318530717959
+2  227 47 0 0 6.28318530717959
+0 1 6.28318530717959 1
+2  228 72 0 0 6.28318530717959
+-2.3 0 -2.3 -5.63337527607782e-16
+0
+
+0101000
++265 0 -265 0 *
+Wi
+
+0101100
++59 0 -56 0 -264 0 +264 0 *
+Fa
+0  1e-07 47 0
+
+0111000
++55 0 *
+Wi
+
+0101100
++56 0 *
+Ed
+ 1e-07 1 1 0
+1  126 0 0 6.28318530717959
+2  229 72 0 0 6.28318530717959
+-2.5 0 -2.5 -6.12323399573677e-16
+2  230 48 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++263 0 -263 0 *
+Wi
+
+0101100
+-52 0 *
+Fa
+0  1e-07 72 0
+
+0111000
++53 0 +51 0 *
+Ed
+ 1e-07 1 1 0
+1  127 0 0 6.28318530717959
+2  231 48 0 0 6.28318530717959
+0 16.9 6.28318530717959 16.9
+2  232 73 0 0 6.28318530717959
+2.5 0 2.5 -6.12323399573677e-16
+0
+
+0101000
++261 0 -261 0 *
+Wi
+
+0101100
++52 0 -49 0 -260 0 +260 0 *
+Fa
+0  1e-07 48 0
+
+0111000
++48 0 *
+Wi
+
+0101100
++49 0 *
+Fa
+0  1e-07 73 0
+
+0111000
++46 0 *
+Sh
+
+0101100
++219 0 +216 0 +212 0 +209 0 +205 0 +202 0 +198 0 +195 0 +192 0 +189 0 
++185 0 +182 0 +178 0 +175 0 +171 0 +168 0 +165 0 +162 0 +159 0 +156 0 
++153 0 +150 0 +147 0 +144 0 +141 0 +138 0 +135 0 +132 0 +129 0 +126 0 
++123 0 +120 0 +117 0 +114 0 +111 0 +108 0 +105 0 +102 0 +99 0 +96 0 
++93 0 +90 0 +87 0 +84 0 +81 0 +78 0 +75 0 +72 0 +69 0 +66 0 
++63 0 +60 0 +57 0 +54 0 +50 0 +47 0 +45 0 *
+So
+
+1100000
++44 0 *
+Ed
+ 1e-07 1 1 0
+1  128 0 0 6.28318530717959
+2  233 49 0 0 6.28318530717959
+0 0 6.28318530717959 0
+2  234 52 0 0 6.28318530717959
+0 1.2 6.28318530717959 1.2
+0
+
+0101000
++255 0 -255 0 *
+Ed
+ 1e-07 1 1 0
+1  129 0 0 6.28318530717959
+2  235 49 0 0 6.28318530717959
+0 0.565685424949239 6.28318530717959 0.565685424949239
+2  236 50 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++254 0 -254 0 *
+Wi
+
+0101100
++42 0 -41 0 -253 0 +253 0 *
+Fa
+0  1e-07 49 0
+
+0111000
++40 0 *
+Ed
+ 1e-07 1 1 0
+1  130 0 0 6.28318530717959
+2  237 50 0 0 6.28318530717959
+0 0.399999999999999 6.28318530717959 0.399999999999999
+2  238 51 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++252 0 -252 0 *
+Wi
+
+0101100
++41 0 -38 0 -251 0 +251 0 *
+Fa
+0  1e-07 50 0
+
+0111000
++37 0 *
+Ed
+ 1e-07 1 1 0
+1  131 0 0 6.28318530717959
+2  239 51 0 0 6.28318530717959
+0 0.565685424949239 6.28318530717959 0.565685424949239
+2  240 52 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++250 0 -250 0 *
+Wi
+
+0101100
++38 0 -35 0 -249 0 +249 0 *
+Fa
+0  1e-07 51 0
+
+0111000
++34 0 *
+Wi
+
+0101100
++35 0 -42 0 -248 0 +248 0 *
+Fa
+0  1e-07 52 0
+
+0111000
++32 0 *
+Sh
+
+0101100
++39 0 +36 0 +33 0 +31 0 *
+So
+
+1100000
+-30 0 *
+Ed
+ 1e-07 1 1 0
+1  132 0 0 6.28318530717959
+2  241 53 0 0 6.28318530717959
+0 0 6.28318530717959 0
+2  242 56 0 0 6.28318530717959
+0 1.2 6.28318530717959 1.2
+0
+
+0101000
++246 0 -246 0 *
+Ed
+ 1e-07 1 1 0
+1  133 0 0 6.28318530717959
+2  243 53 0 0 6.28318530717959
+0 0.565685424949237 6.28318530717959 0.565685424949237
+2  244 54 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++245 0 -245 0 *
+Wi
+
+0101100
++28 0 -27 0 -244 0 +244 0 *
+Fa
+0  1e-07 53 0
+
+0111000
++26 0 *
+Ed
+ 1e-07 1 1 0
+1  134 0 0 6.28318530717959
+2  245 54 0 0 6.28318530717959
+0 0.400000000000002 6.28318530717959 0.400000000000002
+2  246 55 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++243 0 -243 0 *
+Wi
+
+0101100
++27 0 -24 0 -242 0 +242 0 *
+Fa
+0  1e-07 54 0
+
+0111000
++23 0 *
+Ed
+ 1e-07 1 1 0
+1  135 0 0 6.28318530717959
+2  247 55 0 0 6.28318530717959
+0 0.565685424949237 6.28318530717959 0.565685424949237
+2  248 56 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++241 0 -241 0 *
+Wi
+
+0101100
++24 0 -21 0 -240 0 +240 0 *
+Fa
+0  1e-07 55 0
+
+0111000
++20 0 *
+Wi
+
+0101100
++21 0 -28 0 -239 0 +239 0 *
+Fa
+0  1e-07 56 0
+
+0111000
++18 0 *
+Sh
+
+0101100
++25 0 +22 0 +19 0 +17 0 *
+So
+
+1100000
+-16 0 *
+Ed
+ 1e-07 1 1 0
+1  136 0 0 6.28318530717959
+2  249 57 0 0 6.28318530717959
+0 0 6.28318530717959 0
+2  250 60 0 0 6.28318530717959
+0 1.2 6.28318530717959 1.2
+0
+
+0101000
++237 0 -237 0 *
+Ed
+ 1e-07 1 1 0
+1  137 0 0 6.28318530717959
+2  251 57 0 0 6.28318530717959
+0 0.565685424949237 6.28318530717959 0.565685424949237
+2  252 58 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++236 0 -236 0 *
+Wi
+
+0101100
++14 0 -13 0 -235 0 +235 0 *
+Fa
+0  1e-07 57 0
+
+0111000
++12 0 *
+Ed
+ 1e-07 1 1 0
+1  138 0 0 6.28318530717959
+2  253 58 0 0 6.28318530717959
+0 0.399999999999999 6.28318530717959 0.399999999999999
+2  254 59 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++234 0 -234 0 *
+Wi
+
+0101100
++13 0 -10 0 -233 0 +233 0 *
+Fa
+0  1e-07 58 0
+
+0111000
++9 0 *
+Ed
+ 1e-07 1 1 0
+1  139 0 0 6.28318530717959
+2  255 59 0 0 6.28318530717959
+0 0.565685424949239 6.28318530717959 0.565685424949239
+2  256 60 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++232 0 -232 0 *
+Wi
+
+0101100
++10 0 -7 0 -231 0 +231 0 *
+Fa
+0  1e-07 59 0
+
+0111000
++6 0 *
+Wi
+
+0101100
++7 0 -14 0 -230 0 +230 0 *
+Fa
+0  1e-07 60 0
+
+0111000
++4 0 *
+Sh
+
+0101100
++11 0 +8 0 +5 0 +3 0 *
+So
+
+1100000
+-2 0 *
+
+</shapes>
+</document>

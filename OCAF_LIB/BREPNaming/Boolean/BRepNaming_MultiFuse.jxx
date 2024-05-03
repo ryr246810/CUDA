@@ -1,0 +1,7 @@
+#ifndef _TDF_Label_HeaderFile
+#include <TDF_Label.hxx>
+#endif
+#ifndef _BRepNaming_MultiFuse_HeaderFile
+#include <BRepNaming_MultiFuse.hxx>
+#endif
+

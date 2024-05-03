@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document format="XmlOcaf" xmlns="http://www.opencascade.org/OCAF/XML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opencascade.org/OCAF/XML /home/tzh/soft/occ730/share/opencascade/resources/XmlOcafResource/XmlOcaf.xsd">
+ <info date="2022-02-08" schemav="0" DocVersion="9" objnb="138">
+  <iitem>Copyright: Open Cascade, 2001-2002</iitem>
+  <iitem>REFERENCE_COUNTER: 0</iitem>
+  <iitem>MODIFICATION_COUNTER: 1</iitem>
+ </info>
+ <comments/>
+ <label tag="0">
+  <TDF_TagSource id="1">9</TDF_TagSource>
+  <TDataStd_TreeNode id="2" children="3 4 5 6 7 8 9 10 11 "/>
+  <label tag="1">
+   <TDataXtd_Presentation id="12" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDF_Reference id="13">/document/label/label[@tag="1"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="14">1</TDF_TagSource>
+   <TDataStd_Name id="15">co_axis_cyl_1</TDataStd_Name>
+   <TDataStd_TreeNode id="3" children="16 "/>
+   <TDataStd_UAttribute id="17" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="18">2</TDataStd_Integer>
+    <TDataStd_Name id="19">Curve function</TDataStd_Name>
+    <TFunction_Function id="20" guid="22d22e84-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="16"/>
+    <label tag="1">
+     <label tag="1">
+      <TDataStd_Integer id="21">9</TDataStd_Integer>
+     </label>
+     <label tag="3">
+      <TDataStd_RealArray id="22" last="27" delta="0">0 0 0 0 0.5 0 0 0.5 4 0 0.25 4 0 0.25 6 0 0.5 6 0 0.5 10 0 0 10 0 0 0</TDataStd_RealArray>
+     </label>
+    </label>
+    <label tag="2">
+     <TNaming_NamedShape id="23" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+17" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="2">
+   <TDataXtd_Presentation id="24" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDF_Reference id="25">/document/label/label[@tag="2"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="26">1</TDF_TagSource>
+   <TDataStd_Name id="27">co_axis_cyl_2</TDataStd_Name>
+   <TDataStd_TreeNode id="4" children="28 "/>
+   <TDataStd_UAttribute id="29" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="30">2</TDataStd_Integer>
+    <TDataStd_Name id="31">Curve function</TDataStd_Name>
+    <TFunction_Function id="32" guid="22d22e84-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="28"/>
+    <label tag="1">
+     <label tag="1">
+      <TDataStd_Integer id="33">5</TDataStd_Integer>
+     </label>
+     <label tag="3">
+      <TDataStd_RealArray id="34" last="15" delta="0">0 0.25 4 0 0.5 4 0 0.5 6 0 0.25 6 0 0.25 4</TDataStd_RealArray>
+     </label>
+    </label>
+    <label tag="2">
+     <TNaming_NamedShape id="35" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+26" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="3">
+   <TDataXtd_Presentation id="36" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDataStd_Integer id="37">0</TDataStd_Integer>
+   <TDF_Reference id="38">/document/label/label[@tag="3"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="39">1</TDF_TagSource>
+   <TDataStd_Name id="40">polyFace_1</TDataStd_Name>
+   <TDataStd_TreeNode id="5" children="41 "/>
+   <TDataStd_UAttribute id="42" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="43">1</TDataStd_Integer>
+    <TDataStd_Name id="44">Face function</TDataStd_Name>
+    <TFunction_Function id="45" guid="22d22e13-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="41"/>
+    <label tag="1">
+     <label tag="3">
+      <TDataStd_Integer id="46">1</TDataStd_Integer>
+     </label>
+     <label tag="4">
+      <TDF_Reference id="47">/document/label/label[@tag="1"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="48">0</TDataStd_Integer>
+     <TNaming_NamedShape id="49" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+27" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="4">
+   <TDataXtd_Presentation id="50" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDataStd_Integer id="51">0</TDataStd_Integer>
+   <TDF_Reference id="52">/document/label/label[@tag="4"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="53">1</TDF_TagSource>
+   <TDataStd_Name id="54">polyFace_2</TDataStd_Name>
+   <TDataStd_TreeNode id="6" children="55 "/>
+   <TDataStd_UAttribute id="56" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="57">1</TDataStd_Integer>
+    <TDataStd_Name id="58">Face function</TDataStd_Name>
+    <TFunction_Function id="59" guid="22d22e13-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="55"/>
+    <label tag="1">
+     <label tag="3">
+      <TDataStd_Integer id="60">1</TDataStd_Integer>
+     </label>
+     <label tag="4">
+      <TDF_Reference id="61">/document/label/label[@tag="2"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="62">0</TDataStd_Integer>
+     <TNaming_NamedShape id="63" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+28" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="5">
+   <TDataXtd_Presentation id="64" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDataStd_Integer id="65">0</TDataStd_Integer>
+   <TDF_Reference id="66">/document/label/label[@tag="5"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="67">1</TDF_TagSource>
+   <TDataStd_Name id="68">axis</TDataStd_Name>
+   <TDataStd_TreeNode id="7" children="69 "/>
+   <TDataStd_UAttribute id="70" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="71">2</TDataStd_Integer>
+    <TDataStd_Name id="72">Vector function</TDataStd_Name>
+    <TFunction_Function id="73" guid="22d22e05-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="69"/>
+    <label tag="1">
+     <label tag="2">
+      <TDataStd_Real id="74">0</TDataStd_Real>
+     </label>
+     <label tag="3">
+      <TDataStd_Real id="75">0</TDataStd_Real>
+     </label>
+     <label tag="4">
+      <TDataStd_Real id="76">100</TDataStd_Real>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="77">0</TDataStd_Integer>
+     <TNaming_NamedShape id="78" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+31" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="6">
+   <TDataXtd_Presentation id="79" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDataStd_Integer id="80">1</TDataStd_Integer>
+   <TDF_Reference id="81">/document/label/label[@tag="6"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="82">1</TDF_TagSource>
+   <TDataStd_Name id="83">revolModel_1</TDataStd_Name>
+   <TDataStd_TreeNode id="8" children="84 "/>
+   <TDataStd_UAttribute id="85" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="86">1</TDataStd_Integer>
+    <TDataStd_Name id="87">Revolution function</TDataStd_Name>
+    <TFunction_Function id="88" guid="22d22e55-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="84"/>
+    <label tag="1">
+     <label tag="1">
+      <TDataStd_Real id="89">360</TDataStd_Real>
+     </label>
+     <label tag="2">
+      <TDF_Reference id="90">/document/label/label[@tag="5"]/label[@tag="1"]</TDF_Reference>
+     </label>
+     <label tag="3">
+      <TDF_Reference id="91">/document/label/label[@tag="3"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="92">3</TDataStd_Integer>
+     <TNaming_NamedShape id="93" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+55" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="7">
+   <TDataXtd_Presentation id="94" guid="22d22e97-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <TDataStd_Integer id="95">2</TDataStd_Integer>
+   <TDF_Reference id="96">/document/label/label[@tag="7"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="97">1</TDF_TagSource>
+   <TDataStd_Name id="98">revolModel_2</TDataStd_Name>
+   <TDataStd_TreeNode id="9" children="99 "/>
+   <TDataStd_UAttribute id="100" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Integer id="101">1</TDataStd_Integer>
+    <TDataStd_Name id="102">Revolution function</TDataStd_Name>
+    <TFunction_Function id="103" guid="22d22e55-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="99"/>
+    <label tag="1">
+     <label tag="1">
+      <TDataStd_Real id="104">360</TDataStd_Real>
+     </label>
+     <label tag="2">
+      <TDF_Reference id="105">/document/label/label[@tag="5"]/label[@tag="1"]</TDF_Reference>
+     </label>
+     <label tag="3">
+      <TDF_Reference id="106">/document/label/label[@tag="4"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="107">3</TDataStd_Integer>
+     <TNaming_NamedShape id="108" evolution="primitive">
+      <olds/>
+      <news>
+       <shape tshape="+71" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+    </label>
+   </label>
+  </label>
+  <label tag="8">
+   <TDataStd_Integer id="109">4</TDataStd_Integer>
+   <TDF_Reference id="110">/document/label/label[@tag="8"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="111">1</TDF_TagSource>
+   <TDataStd_Name id="112">selection1</TDataStd_Name>
+   <TDataStd_TreeNode id="10" children="113 "/>
+   <TDataStd_UAttribute id="114" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Name id="115">Naming function</TDataStd_Name>
+    <TFunction_Function id="116" guid="22d22e57-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="113"/>
+    <label tag="1">
+     <label tag="1">
+      <TDF_Reference id="117">/document/label/label[@tag="6"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="118">9</TDataStd_Integer>
+     <TNaming_Naming id="119" nametype="identity" shapetype="face" arguments="120 " index="-1" contextlabel="" orientation="0"/>
+     <TNaming_NamedShape id="121" evolution="selected">
+      <olds>
+       <shape tshape="+34" index="1"/>
+      </olds>
+      <news>
+       <shape tshape="+34" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+     <TDF_TagSource id="122">1</TDF_TagSource>
+     <label tag="1">
+      <TNaming_NamedShape id="120" evolution="selected">
+       <olds>
+        <shape tshape="+34" index="1"/>
+       </olds>
+       <news>
+        <shape tshape="+34" index="1"/>
+       </news>
+      </TNaming_NamedShape>
+      <TNaming_Naming id="123" nametype="unknown" shapetype="face" index="-1" contextlabel="" orientation="0"/>
+     </label>
+    </label>
+   </label>
+  </label>
+  <label tag="9">
+   <TDataStd_Integer id="124">5</TDataStd_Integer>
+   <TDF_Reference id="125">/document/label/label[@tag="9"]/label[@tag="1"]</TDF_Reference>
+   <TDF_TagSource id="126">1</TDF_TagSource>
+   <TDataStd_Name id="127">selection1</TDataStd_Name>
+   <TDataStd_TreeNode id="11" children="128 "/>
+   <TDataStd_UAttribute id="129" guid="22d22e01-c69a-11d4-8f1a-0060b0ee18e8"/>
+   <label tag="1">
+    <TDataStd_Name id="130">Naming function</TDataStd_Name>
+    <TFunction_Function id="131" guid="22d22e57-c69a-11d4-8f1a-0060b0ee18e8" failure="0"/>
+    <TDataStd_TreeNode id="128"/>
+    <label tag="1">
+     <label tag="1">
+      <TDF_Reference id="132">/document/label/label[@tag="6"]/label[@tag="1"]</TDF_Reference>
+     </label>
+    </label>
+    <label tag="2">
+     <TDataStd_Integer id="133">4</TDataStd_Integer>
+     <TNaming_Naming id="134" nametype="identity" shapetype="face" arguments="135 " index="-1" contextlabel="" orientation="0"/>
+     <TNaming_NamedShape id="136" evolution="selected">
+      <olds>
+       <shape tshape="+53" index="1"/>
+      </olds>
+      <news>
+       <shape tshape="+53" index="1"/>
+      </news>
+     </TNaming_NamedShape>
+     <TDF_TagSource id="137">1</TDF_TagSource>
+     <label tag="1">
+      <TNaming_NamedShape id="135" evolution="selected">
+       <olds>
+        <shape tshape="+53" index="1"/>
+       </olds>
+       <news>
+        <shape tshape="+53" index="1"/>
+       </news>
+      </TNaming_NamedShape>
+      <TNaming_Naming id="138" nametype="unknown" shapetype="face" index="-1" contextlabel="" orientation="0"/>
+     </label>
+    </label>
+   </label>
+  </label>
+ </label>
+ <shapes>
+CASCADE Topology V2, (c) Matra-Datavision
+Locations 0
+Curve2ds 30
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+1 6.2831853071795862 0 0 1 
+1 0 0 0 1 
+2 0 0 -1 0 0 1 0.5
+1 0 0 1 0 
+1 0 4 1 0 
+2 0 0 1 0 -0 1 0.5
+2 0 0 1 0 -0 1 0.25
+1 0 0 1 0 
+1 0 2 1 0 
+2 0 0 -1 0 0 1 0.25
+2 0 0 -1 0 0 1 0.5
+1 0 0 1 0 
+1 0 4 1 0 
+2 0 0 1 0 -0 1 0.5
+2 0 0 -1 0 0 1 0.25
+1 0 2 1 0 
+2 0 0 -1 0 0 1 0.5
+1 0 0 1 0 
+1 0 2 1 0 
+2 0 0 1 0 -0 1 0.5
+2 0 0 1 0 -0 1 0.25
+1 0 0 1 0 
+Curves 23
+1 0 0 0 0 1 0 
+1 0 0.5 0 0 0 1 
+1 0 0.5 4 0 -1 0 
+1 0 0.25 4 0 0 1 
+1 0 0.25 6 0 1 0 
+1 0 0.5 6 0 0 1 
+1 0 0.5 10 0 -1 0 
+1 0 0 10 0 0 -1 
+1 0 0.25 4 0 1 0 
+1 0 0.5 4 0 0 1 
+1 0 0.5 6 0 -1 0 
+1 0 0.25 6 0 0 -1 
+1 0 0 0 0 0 1 
+2 0 0 0 0 0 1 0 1 0 -1 0 0 0.5
+2 0 0 4 0 0 1 0 1 0 -1 0 0 0.5
+2 0 0 4 0 0 1 0 1 0 -1 0 0 0.25
+2 0 0 6 0 0 1 0 1 0 -1 0 0 0.25
+2 0 0 6 0 0 1 0 1 0 -1 0 0 0.5
+2 0 0 10 0 0 1 0 1 0 -1 0 0 0.5
+2 0 0 4 0 0 1 0 1 0 -1 0 0 0.25
+2 0 0 4 0 0 1 0 1 0 -1 0 0 0.5
+2 0 0 6 0 0 1 0 1 0 -1 0 0 0.5
+2 0 0 6 0 0 1 0 1 0 -1 0 0 0.25
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 13
+2 0 0 0 0 0 1 0 1 0 -1 0 0 0.5
+2 0 0 4 0 0 1 0 1 0 -1 0 0 0.25
+2 0 0 6 0 0 1 0 1 0 -1 0 0 0.5
+2 0 0 4 0 0 1 0 1 0 -1 0 0 0.5
+2 0 0 6 -0 -0 -1 0 1 -0 -1 0 -0 0.25
+1 0 0.22965116279069767 5 1 0 0 -0 0 1 0 -1 0 
+1 0 0.375 5 1 0 0 -0 0 1 0 -1 0 
+1 0 0 0 0 0 1 -0 -1 0 -1 0 0 
+1 0 0 4 0 0 1 0 1 0 -1 0 0 
+1 0 0 6 0 0 1 -0 -1 -0 -1 0 0 
+1 0 0 10 0 0 1 0 1 0 -1 0 0 
+1 0 0 4 0 0 1 -0 -1 -0 -1 0 0 
+1 0 0 6 0 0 1 0 1 0 -1 0 0 
+Triangulations 0
+
+TShapes 71
+Ve
+1e-07
+0 0 0
+0 0
+
+0101101
+*
+Ve
+1e-07
+0 0.5 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  1 0 0 0.5
+0
+
+0101000
++71 0 -70 0 *
+Ve
+1e-07
+0 0.5 4
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  2 0 0 4
+3  1 2CN 1 0 0 4
+0 0 0 4
+0
+
+0101000
++70 0 -68 0 *
+Ve
+1e-07
+0 0.25 4
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  3 0 0 0.25
+0
+
+0101000
++68 0 -66 0 *
+Ve
+1e-07
+0 0.25 6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  4 0 0 2
+3  3 4CN 2 0 0 2
+0 0 0 2
+0
+
+0101000
++66 0 -64 0 *
+Ve
+1e-07
+0 0.5 6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  5 0 0 0.25
+0
+
+0101000
++64 0 -62 0 *
+Ve
+1e-07
+0 0.5 10
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  6 0 0 4
+3  5 6CN 3 0 0 4
+0 0 0 4
+0
+
+0101000
++62 0 -60 0 *
+Ve
+1e-07
+0 0 10
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  7 0 0 0.5
+0
+
+0101000
++60 0 -58 0 *
+Ed
+ 1e-07 1 1 0
+1  8 0 0 10
+0
+
+0101000
++58 0 -71 0 *
+Wi
+
+0101100
++69 0 +67 0 +65 0 +63 0 +61 0 +59 0 +57 0 +56 0 *
+Ve
+1e-07
+0 0.25 4
+0 0
+
+0101101
+*
+Ve
+1e-07
+0 0.5 4
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  9 0 0 0.25
+0
+
+0101000
++54 0 -53 0 *
+Ve
+1e-07
+0 0.5 6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  10 0 0 2
+3  7 8CN 4 0 0 2
+0 0 0 2
+0
+
+0101000
++53 0 -51 0 *
+Ve
+1e-07
+0 0.25 6
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  11 0 0 0.25
+0
+
+0101000
++51 0 -49 0 *
+Ed
+ 1e-07 1 1 0
+1  12 0 0 2
+3  9 10CN 5 0 0 2
+0 0 0 2
+0
+
+0101000
++49 0 -54 0 *
+Wi
+
+0101100
++52 0 +50 0 +48 0 +47 0 *
+Fa
+0  1e-07 6 0
+
+1111000
++55 0 *
+Fa
+0  1e-07 7 0
+
+1111000
++46 0 *
+Ve
+1e-07
+0 0 0
+0 0
+
+0101101
+*
+Ve
+1e-07
+0 0 100
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  13 0 0 100
+0
+
+1101000
++43 0 -42 0 *
+Ed
+ 1e-07 1 1 0
+1  14 0 0 6.28318530717959
+2  11 8 0 0 6.28318530717959
+-0.5 0 -0.5 -1.22464679914735e-16
+2  12 1 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++70 0 -70 0 *
+Wi
+
+0101100
+-40 0 *
+Fa
+0  1e-07 8 0
+
+0111000
++39 0 *
+Ed
+ 1e-07 1 1 0
+1  15 0 0 6.28318530717959
+2  13 1 0 0 6.28318530717959
+0 4 6.28318530717959 4
+2  14 9 0 0 6.28318530717959
+0.5 0 0.5 -1.22464679914735e-16
+0
+
+0101000
++68 0 -68 0 *
+Wi
+
+0101100
++40 0 -37 0 -67 0 +67 0 *
+Fa
+0  1e-07 1 0
+
+0111000
++36 0 *
+Wi
+
+0101100
++37 0 *
+Ed
+ 1e-07 1 1 0
+1  16 0 0 6.28318530717959
+2  15 9 0 0 6.28318530717959
+0.25 0 0.25 -6.12323399573677e-17
+2  16 2 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++66 0 -66 0 *
+Wi
+
+0101100
+-33 0 *
+Fa
+0  1e-07 9 0
+
+0111000
++34 0 +32 0 *
+Ed
+ 1e-07 1 1 0
+1  17 0 0 6.28318530717959
+2  17 2 0 0 6.28318530717959
+0 2 6.28318530717959 2
+2  18 10 0 0 6.28318530717959
+-0.25 0 -0.25 -6.12323399573677e-17
+0
+
+0101000
++64 0 -64 0 *
+Wi
+
+0101100
++33 0 -30 0 -63 0 +63 0 *
+Fa
+0  1e-07 2 0
+
+0111000
++29 0 *
+Wi
+
+0101100
++30 0 *
+Ed
+ 1e-07 1 1 0
+1  18 0 0 6.28318530717959
+2  19 10 0 0 6.28318530717959
+-0.5 0 -0.5 -1.22464679914735e-16
+2  20 3 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++62 0 -62 0 *
+Wi
+
+0101100
+-26 0 *
+Fa
+0  1e-07 10 0
+
+0111000
++27 0 +25 0 *
+Ed
+ 1e-07 1 1 0
+1  19 0 0 6.28318530717959
+2  21 3 0 0 6.28318530717959
+0 4 6.28318530717959 4
+2  22 11 0 0 6.28318530717959
+0.5 0 0.5 -1.22464679914735e-16
+0
+
+0101000
++60 0 -60 0 *
+Wi
+
+0101100
++26 0 -23 0 -59 0 +59 0 *
+Fa
+0  1e-07 3 0
+
+0111000
++22 0 *
+Wi
+
+0101100
++23 0 *
+Fa
+0  1e-07 11 0
+
+0111000
++20 0 *
+Sh
+
+0101100
++38 0 +35 0 +31 0 +28 0 +24 0 +21 0 +19 0 *
+So
+
+1100000
++18 0 *
+Ed
+ 1e-07 1 1 0
+1  20 0 0 6.28318530717959
+2  23 12 0 0 6.28318530717959
+-0.25 0 -0.25 -6.12323399573677e-17
+2  24 5 0 0 6.28318530717959
+0 2 6.28318530717959 2
+0
+
+0101000
++54 0 -54 0 *
+Wi
+
+0101100
++16 0 *
+Ed
+ 1e-07 1 1 0
+1  21 0 0 6.28318530717959
+2  25 12 0 0 6.28318530717959
+-0.5 0 -0.5 -1.22464679914735e-16
+2  26 4 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++53 0 -53 0 *
+Wi
+
+0101100
+-14 0 *
+Fa
+0  1e-07 12 0
+
+0111000
++15 0 +13 0 *
+Ed
+ 1e-07 1 1 0
+1  22 0 0 6.28318530717959
+2  27 4 0 0 6.28318530717959
+0 2 6.28318530717959 2
+2  28 13 0 0 6.28318530717959
+0.5 0 0.5 -1.22464679914735e-16
+0
+
+0101000
++51 0 -51 0 *
+Wi
+
+0101100
++14 0 -11 0 -50 0 +50 0 *
+Fa
+0  1e-07 4 0
+
+0111000
++10 0 *
+Wi
+
+0101100
++11 0 *
+Ed
+ 1e-07 1 1 0
+1  23 0 0 6.28318530717959
+2  29 13 0 0 6.28318530717959
+0.25 0 0.25 -6.12323399573677e-17
+2  30 5 0 0 6.28318530717959
+0 0 6.28318530717959 0
+0
+
+0101000
++49 0 -49 0 *
+Wi
+
+0101100
+-7 0 *
+Fa
+0  1e-07 13 0
+
+0111000
++8 0 +6 0 *
+Wi
+
+0101100
++7 0 -16 0 -47 0 +47 0 *
+Fa
+0  1e-07 5 0
+
+0111000
++4 0 *
+Sh
+
+0101100
++12 0 +9 0 +5 0 +3 0 *
+So
+
+1100000
++2 0 *
+
+</shapes>
+</document>

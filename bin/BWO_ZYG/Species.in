@@ -1,0 +1,18 @@
+
+<Species cyl>
+  name = electron
+  charge = -1.6022e-19
+  mass = 9.109e-31
+  # numPtclsInMacro = 3.0e10 #正常调试用参数
+
+
+  # numPtclsInMacro = 3.0e6
+  #numPtclsInMacro = 1.0e8
+  numPtclsInMacro = 6.0e7 #测试加速比使用参数
+  mask=4
+  threshold=1.0e7
+  edgeEnhance=1.0
+ 
+</Species>
+
+

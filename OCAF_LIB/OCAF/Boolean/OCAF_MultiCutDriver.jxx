@@ -1,0 +1,6 @@
+#ifndef _TFunction_Logbook_HeaderFile
+#include <TFunction_Logbook.hxx>
+#endif
+#ifndef _OCAF_MultiCutDriver_HeaderFile
+#include <OCAF_MultiCutDriver.hxx>
+#endif

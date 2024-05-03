@@ -1,0 +1,9 @@
+#ifndef _TDF_Label_HeaderFile
+#include <TDF_Label.hxx>
+#endif
+#ifndef _BRepPrimAPI_MakeTorus_HeaderFile
+#include <BRepPrimAPI_MakeTorus.hxx>
+#endif
+#ifndef _BRepNaming_Torus_HeaderFile
+#include <BRepNaming_Torus.hxx>
+#endif

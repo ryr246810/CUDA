@@ -1,0 +1,11 @@
+
+#ifndef _AIS_InteractiveObject_HeaderFile
+#include <AIS_InteractiveObject.hxx>
+#endif
+#ifndef _TopoDS_Shape_HeaderFile
+#include <TopoDS_Shape.hxx>
+#endif
+#ifndef _OCAF_AISShape_HeaderFile
+#include <OCAF_AISShape.hxx>
+#endif
+

@@ -1,0 +1,14 @@
+
+<Species cyl>
+  name = electron
+  charge = -1.6022e-19
+  mass = 9.109e-31
+  #numPtclsInMacro = 4.0e8
+  numPtclsInMacro = 3.0e9
+  mask=5
+  threshold=1.0e7
+  edgeEnhance=1.0
+ 
+</Species>
+
+

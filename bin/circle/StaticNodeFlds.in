@@ -1,0 +1,18 @@
+
+<StaticNodeFLd expressModel>
+  <STFunc funcBz>
+    function = constant
+    kind = Mag
+    amplitude=1.0
+    component = 0   
+  </STFunc>
+
+  <STFunc funcBr>
+    function =constant 
+    kind = Mag
+    amplitude =0.0
+    component = 1   
+  </STFunc>
+
+</StaticNodeFLd>
+

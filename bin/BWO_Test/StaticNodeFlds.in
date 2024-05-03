@@ -1,0 +1,16 @@
+
+<StaticNodeFLd expressModel>
+  <STFunc funcBz>
+    function = zrtExpFunc
+    expression = 2.8/(1.0+exp((z-0.29)/0.02))
+    component = 0   
+  </STFunc>
+
+  <STFunc funcBr>
+    function = zrtExpFunc
+    expression = 2.8/(2.0*0.02)*r*exp((z-0.29)/0.02)/((1.0+exp((z-0.29)/0.02))^2.0)
+    component = 1   
+  </STFunc>
+
+</StaticNodeFLd>
+

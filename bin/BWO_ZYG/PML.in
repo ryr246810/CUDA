@@ -1,0 +1,9 @@
+
+<PML PMLSetting>
+  key = 1
+  powerOrder = 3
+  sigmaRatio = 7.5
+  alpha = 0.0
+  kappaMax = 40.0
+</PML>
+

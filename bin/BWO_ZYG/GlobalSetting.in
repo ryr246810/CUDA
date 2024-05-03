@@ -1,0 +1,11 @@
+simulationTime = 60.0e-9
+
+CFLScale = 0.5
+LangdonMarderDivParam = 0.0
+FilterMask = 0
+InterpolateType = 1
+# dynEMkind = SI_SC
+# dynEMkind = SI_SC_Matrix
+emAdvanceOrder = 2
+emDamping = 0.2
+
